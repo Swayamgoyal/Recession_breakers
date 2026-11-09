@@ -1,0 +1,143 @@
+% =====================================================================
+%  fxstyle.sty  --  shared look for "The Foreign Exchange Rate" chapter
+%  Introduction to Economics, Monsoon 2026 (group project)
+%  Compile with XeLaTeX (Overleaf: Menu > Compiler > XeLaTeX; the
+%  included latexmkrc already selects it).
+%  Fonts are bundled in ./fonts (Source Serif 4 / Source Sans 3, SIL OFL)
+%  so the rupee sign (₹) works on any machine.
+% =====================================================================
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fxstyle}[2026/10/16 FX chapter style]
+
+% ---------- page layout: wide outer margin for key-term notes ----------
+\RequirePackage[a4paper,
+  top=22mm, bottom=24mm, inner=20mm,
+  textwidth=122mm, marginparsep=7mm, marginparwidth=44mm,
+  headsep=8mm]{geometry}
+
+% ---------- fonts ----------
+\RequirePackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{SourceSerif4}[
+  Path=./fonts/, Extension=.ttf,
+  UprightFont=*_400Regular, ItalicFont=*_400Regular_Italic,
+  BoldFont=*_600SemiBold, BoldItalicFont=*_600SemiBold_Italic]
+\setsansfont{SourceSans3}[
+  Path=./fonts/, Extension=.ttf,
+  UprightFont=*_400Regular, ItalicFont=*_400Regular_Italic,
+  BoldFont=*_600SemiBold, BoldItalicFont=*_600SemiBold_Italic]
+\newfontfamily\heavysans{SourceSans3}[Path=./fonts/, Extension=.ttf, UprightFont=*_700Bold]
+\RequirePackage{microtype}
+\linespread{1.12}
+
+% ---------- colours (Member 2 can change these in one place) ----------
+\RequirePackage[table]{xcolor}
+\definecolor{fxnavy}{HTML}{1F3A5F}
+\definecolor{fxorange}{HTML}{C8641E}
+\definecolor{fxteal}{HTML}{2A7072}
+\definecolor{fxgreen}{HTML}{3B6E3B}
+\definecolor{fxplum}{HTML}{6A3D6E}
+\definecolor{fxink}{HTML}{222222}
+\definecolor{fxmuted}{HTML}{5F5F5F}
+\definecolor{fxrule}{HTML}{C9CED6}
+\colorlet{fxnavybg}{fxnavy!6}
+\colorlet{fxorangebg}{fxorange!7}
+\colorlet{fxtealbg}{fxteal!7}
+\colorlet{fxgreenbg}{fxgreen!7}
+\colorlet{fxplumbg}{fxplum!6}
+
+% ---------- general packages ----------
+\RequirePackage{graphicx}
+\RequirePackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,calc,shapes.geometric,fit,backgrounds}
+\RequirePackage{booktabs,tabularx,array}
+\RequirePackage{enumitem}
+\setlist{nosep, leftmargin=1.3em, itemsep=2pt, topsep=4pt}
+\setlist[itemize]{label=\textcolor{fxorange}{\small\textbullet}}
+\RequirePackage{ragged2e}
+\RequirePackage{marginnote}
+\renewcommand*{\marginfont}{\footnotesize\sffamily\color{fxink}}
+\RequirePackage{changepage}
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{titlesec}
+\RequirePackage{fancyhdr}
+\RequirePackage[font={small,sf}, labelfont={bf,color=fxnavy}, labelsep=period,
+                justification=raggedright, singlelinecheck=false]{caption}
+\RequirePackage[colorlinks=true, linkcolor=fxnavy, urlcolor=fxteal,
+                citecolor=fxnavy]{hyperref}
+\urlstyle{sf}
+
+% ---------- headings ----------
+\titleformat{\section}[hang]
+  {\heavysans\LARGE\color{fxnavy}\raggedright}
+  {\thesection}{0.6em}{}
+\titlespacing*{\section}{0pt}{18pt}{8pt}
+\titleformat{\subsection}[hang]
+  {\sffamily\bfseries\large\color{fxnavy}\raggedright}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{12pt}{3pt}
+% Run-in mini headings used inside sections
+\newcommand{\minihead}[1]{\par\smallskip\noindent{\sffamily\bfseries\color{fxnavy}#1}\enspace}
+
+% ---------- chapter title block ----------
+\newcommand{\chaptertitle}[3]{% #1 kicker, #2 title, #3 subtitle
+  \begin{adjustwidth}{0pt}{-\dimexpr\marginparwidth+\marginparsep\relax}
+  {\sffamily\small\bfseries\color{fxorange}\MakeUppercase{#1}\par}\vspace{4pt}
+  {\heavysans\fontsize{30}{34}\selectfont\color{fxnavy}#2\par}\vspace{6pt}
+  {\sffamily\Large\color{fxmuted}#3\par}\vspace{6pt}
+  {\color{fxorange}\rule{\linewidth}{2pt}}
+  \end{adjustwidth}\vspace{10pt}}
+
+% ---------- key terms: bold in text + definition in the margin ----------
+% \keyterm{term as it appears}{one-line definition}
+% \marginpar stacks notes so they never overlap each other.
+\newcommand{\keyterm}[2]{\textbf{#1}\marginpar{\footnotesize\sffamily\RaggedRight
+  {\color{fxnavy}\bfseries #1}\quad#2\par}}
+% a plain note in the margin (sources, workings)
+\newcommand{\sidenote}[1]{\marginpar{\footnotesize\sffamily\RaggedRight\color{fxmuted}#1\par}}
+
+% ---------- cross-references (Member 4 converts at merge) ----------
+\newcommand{\seesec}[1]{{\sffamily\small\color{fxteal}[see: #1]}}
+
+% ---------- boxes (only the types allowed by the style sheet) ----------
+\tcbset{fxbase/.style={enhanced, breakable, boxrule=0pt, arc=1.5mm,
+  left=10pt, right=10pt, top=8pt, bottom=8pt, fontupper=\small\sffamily,
+  before skip=12pt, after skip=12pt,
+  coltitle=white, fonttitle=\sffamily\bfseries,
+  attach boxed title to top left={xshift=8pt, yshift=-3mm},
+  boxed title style={arc=1mm, boxrule=0pt, top=1.5pt, bottom=1.5pt, left=5pt, right=5pt}}}
+\newtcolorbox{didyouknow}[1]{fxbase, colback=fxtealbg, borderline west={3pt}{0pt}{fxteal},
+  boxed title style={colback=fxteal}, title={Did you know?\enspace\textmd{#1}}, top=12pt}
+\newtcolorbox{workedexample}[1]{fxbase, colback=fxnavybg, borderline west={3pt}{0pt}{fxnavy},
+  boxed title style={colback=fxnavy}, title={Worked example\enspace\textmd{#1}}, top=12pt}
+\newtcolorbox{exercise}[1]{fxbase, colback=fxorangebg, borderline west={3pt}{0pt}{fxorange},
+  boxed title style={colback=fxorange}, title={Exercise\enspace\textmd{#1}}, top=12pt}
+\newtcolorbox{economistsfacts}[1]{fxbase, colback=fxgreenbg, borderline west={3pt}{0pt}{fxgreen},
+  boxed title style={colback=fxgreen}, title={How economists learn from facts\enspace\textmd{#1}}, top=12pt}
+\newtcolorbox{keypoints}[1]{fxbase, colback=fxplumbg, borderline west={3pt}{0pt}{fxplum},
+  boxed title style={colback=fxplum}, title={Key points\enspace\textmd{#1}}, top=12pt}
+\newtcolorbox{casestudy}[1]{fxbase, colback=fxnavybg, borderline west={3pt}{0pt}{fxnavy},
+  boxed title style={colback=fxnavy}, title={Case study\enspace\textmd{#1}}, top=12pt}
+\newtcolorbox{economistsdisagree}[1]{fxbase, colback=fxorangebg, borderline west={3pt}{0pt}{fxorange},
+  boxed title style={colback=fxorange}, title={When economists disagree\enspace\textmd{#1}}, top=12pt}
+% small answer line used at the foot of boxes
+\newcommand{\answers}[1]{\par\smallskip{\color{fxmuted}\footnotesize\textbf{Answers.} #1}}
+
+% ---------- figure helpers ----------
+\newcommand{\figsource}[1]{\par\vspace{2pt}{\sffamily\scriptsize\color{fxmuted}Source: #1\par}}
+% Draft numbering per style sheet (Fig M1-1, M1-2 ...). Member 4 removes this at merge.
+\renewcommand{\thefigure}{M1-\arabic{figure}}
+
+% ---------- running header ----------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyheadoffset[R]{\dimexpr\marginparwidth+\marginparsep\relax}
+\fancyhead[L]{\sffamily\scriptsize\color{fxmuted}The Foreign Exchange Rate}
+\fancyhead[R]{\sffamily\scriptsize\color{fxmuted}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{{\color{fxrule}\hrule width\headwidth height\headrulewidth}}
+
+\reversemarginpar\normalmarginpar % notes always in the right margin (one-sided)
+\setlength{\emergencystretch}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\endinput
