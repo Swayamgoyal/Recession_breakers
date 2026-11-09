@@ -1,0 +1,36 @@
+% =====================================================================
+%  The Foreign Exchange Rate  --  merged chapter (all four members)
+%  Introduction to Economics, Monsoon 2026
+%  Build:  python source/build_book.py   then   latexmk main.tex  (XeLaTeX)
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage{fxstyle}
+\usepackage{xurl}
+
+\begin{document}
+
+\chaptertitle{Introduction to Economics \textperiodcentered{} Teaching chapter}
+             {The Foreign Exchange Rate}
+             {What is the rupee worth, and why does it keep changing?}
+
+\input{sections/s00_intro}            % Member 1
+\input{sections/s01_exchange_rate}    % Member 1
+\input{sections/s02_forex_market}     % Member 1
+\input{sections/s03_bop}              % Member 1 (was Section A)
+\input{sections/s04_demand_supply}    % Member 2 (was 3)
+\input{sections/s05_appreciation}     % Member 2 (was 4)
+\input{sections/s06_systems}          % Member 3 (was 5)
+\input{sections/s07_reserves}         % Member 3 (was C)
+\input{sections/s08_real_ppp}         % Member 3 (was 6)
+\input{sections/s09_what_moves}       % Member 4 (was 7)
+\input{sections/s10_why_matters}      % Member 4 (was 8)
+\input{sections/s11_crises}           % Member 4 (was D)
+\input{sections/s12_conclusion}       % Member 1
+
+\clearpage
+\input{sections/e1_glossary}
+\input{sections/e2_questions}
+\input{sections/e3_further_learning}
+\input{sections/e4_references}
+
+\end{document}

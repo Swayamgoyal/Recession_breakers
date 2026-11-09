@@ -1,0 +1,1426 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.9.3)  10 NOV 2026 02:45
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@section=\count272
+\c@subsection=\count273
+\c@subsubsection=\count274
+\c@paragraph=\count275
+\c@subparagraph=\count276
+\c@figure=\count277
+\c@table=\count278
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (fxstyle.sty
+Package: fxstyle 2026/10/16 FX chapter style
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
+y.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.
+sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.s
+ty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.st
+y
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
+y.cfg))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspe
+c.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xpars
+e\xparse.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.s
+ty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3back
+end-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count282
+\g__pdfannot_backend_int=\count283
+\g__pdfannot_backend_link_int=\count284
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspe
+c-xetex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count285
+\l__fontspec_language_int=\count286
+\l__fontspec_strnum_int=\count287
+\l__fontspec_tmp_int=\count288
+\l__fontspec_tmpa_int=\count289
+\l__fontspec_tmpb_int=\count290
+\l__fontspec_tmpc_int=\count291
+\l__fontspec_em_int=\count292
+\l__fontspec_emdef_int=\count293
+\l__fontspec_strong_int=\count294
+\l__fontspec_strongdef_int=\count295
+\l__fontspec_tmpa_dim=\dimen157
+\l__fontspec_tmpb_dim=\dimen158
+\l__fontspec_tmpc_dim=\dimen159
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspe
+c.cfg)))
+
+Package fontspec Info: 
+(fontspec)             Font family 'SourceSerif4(0)' created for font
+(fontspec)             'SourceSerif4' with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Path=./fonts/,Extension=.tt
+f,UprightFont=*_400Regular,ItalicFont=*_400Regular_Italic,BoldFont=*_600SemiBol
+d,BoldItalicFont=*_600SemiBold_Italic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSerif4_400Regular.ttf]/OT:script=latn
+;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSerif4_400Regular.ttf]/OT:script=latn
+;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSerif4_600SemiBold.ttf]/OT:script=lat
+n;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSerif4_600SemiBold.ttf]/OT:script=lat
+n;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSerif4_400Regular_Italic.ttf]/OT:scri
+pt=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSerif4_600SemiBold_Italic.ttf]/OT:scr
+ipt=latn;language=dflt;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SourceSans3(0)' created for font
+(fontspec)             'SourceSans3' with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Path=./fonts/,Extension=.tt
+f,UprightFont=*_400Regular,ItalicFont=*_400Regular_Italic,BoldFont=*_600SemiBol
+d,BoldItalicFont=*_600SemiBold_Italic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSans3_400Regular.ttf]/OT:script=latn;
+language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSans3_400Regular.ttf]/OT:script=latn;
+language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSans3_600SemiBold.ttf]/OT:script=latn
+;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSans3_600SemiBold.ttf]/OT:script=latn
+;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSans3_400Regular_Italic.ttf]/OT:scrip
+t=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSans3_600SemiBold_Italic.ttf]/OT:scri
+pt=latn;language=dflt;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SourceSans3(1)' created for font
+(fontspec)             'SourceSans3' with options
+(fontspec)             [Ligatures=TeX,Path=./fonts/,Extension=.ttf,UprightFont=
+*_700Bold].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSans3_700Bold.ttf]/OT:script=latn;lan
+guage=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[./fonts/SourceSans3_700Bold.ttf]/OT:script=latn;lan
+guage=dflt;+smcp;mapping=tex-text;"
+
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microt
+ype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbo
+x.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
+)
+\MT@toks=\toks19
+\MT@tempbox=\box53
+\MT@count=\count297
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks20
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen160
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count298
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microt
+ype-xetex.def
+File: microtype-xetex.def 2026/03/01 v3.2d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip51
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microt
+ype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.st
+y
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\col
+or.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xet
+ex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcol
+or.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortb
+l.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen161
+\ar@mcellbox=\box54
+\extrarowheight=\dimen162
+\NC@list=\toks21
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box55
+)
+\everycr=\toks22
+\minrowclearance=\skip54
+\rownum=\count299
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphic
+x.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphic
+s.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.st
+y
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\gra
+phics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+)
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlaye
+r\tikz.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\p
+gf.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pg
+frcs.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\
+pgfutil-common.tex
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\
+pgfutil-latex.def
+\pgfutil@abb=\box56
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\
+pgfrcs.code.tex
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revisi
+on.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\p
+gfcore.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\
+pgfsys.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlaye
+r\pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\
+pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\
+pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen167
+\pgf@y=\dimen168
+\pgf@xa=\dimen169
+\pgf@ya=\dimen170
+\pgf@xb=\dimen171
+\pgf@yb=\dimen172
+\pgf@xc=\dimen173
+\pgf@yc=\dimen174
+\pgf@xd=\dimen175
+\pgf@yd=\dimen176
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count300
+\c@pgf@countb=\count301
+\c@pgf@countc=\count302
+\c@pgf@countd=\count303
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count304
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlaye
+r\pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlaye
+r\pgfsys-xetex.def
+File: pgfsys-xetex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlaye
+r\pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlaye
+r\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)
+\pgfsys@objnum=\count305
+)))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlaye
+r\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count306
+\pgfsyssoftpath@bigbuffer@items=\count307
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlaye
+r\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+th.code.tex
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thutil.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thparser.code.tex
+\pgfmath@dimen=\dimen177
+\pgfmath@count=\count308
+\pgfmath@box=\box57
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.basic.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.trigonometric.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.random.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.comparison.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.base.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.round.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.misc.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfunctions.integerarithmetics.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thcalc.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+thfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count309
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfin
+t.code.tex)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen178
+\pgf@picmaxx=\dimen179
+\pgf@picminy=\dimen180
+\pgf@picmaxy=\dimen181
+\pgf@pathminx=\dimen182
+\pgf@pathmaxx=\dimen183
+\pgf@pathminy=\dimen184
+\pgf@pathmaxy=\dimen185
+\pgf@xx=\dimen186
+\pgf@xy=\dimen187
+\pgf@yx=\dimen188
+\pgf@yy=\dimen189
+\pgf@zx=\dimen190
+\pgf@zy=\dimen191
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen192
+\pgf@path@lasty=\dimen193
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen194
+\pgf@shorten@start@additional=\dimen195
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count310
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen196
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen197
+\pgf@pt@y=\dimen198
+\pgf@pt@temp=\dimen199
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen256
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen257
+\pgf@sys@shading@range@num=\count311
+\pgf@shadingcount=\count312
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box61
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer
+\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pg
+fmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box62
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pg
+fmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibilit
+y\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen258
+\pgf@nodesepend=\dimen259
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibilit
+y\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pg
+ffor.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pg
+fkeys.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\
+pgfkeys.code.tex))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath
+.sty
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
+th.code.tex))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\
+pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen260
+\pgffor@skip=\dimen261
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
+yer/tikz\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\
+pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count313
+\pgfplotmarksize=\dimen262
+)
+\tikz@lastx=\dimen263
+\tikz@lasty=\dimen264
+\tikz@lastxsaved=\dimen265
+\tikz@lastysaved=\dimen266
+\tikz@lastmovetox=\dimen267
+\tikz@lastmovetoy=\dimen268
+\tikzleveldistance=\dimen269
+\tikzsiblingdistance=\dimen270
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count314
+\tikznumberofchildren=\count315
+\tikznumberofcurrentchild=\count316
+\tikz@fig@count=\count317
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pg
+fmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count318
+\pgfmatrixcurrentcolumn=\count319
+\pgf@matrix@numberofcolumns=\count320
+)
+\tikz@expandcount=\count321
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\
+pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen271
+\pgfarrowlength=\dimen272
+\pgfarrowwidth=\dimen273
+\pgfarrowlinewidth=\dimen274
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/
+shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@layerbox@background=\box67
+\pgf@layerboxsaved@background=\box68
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktab
+s.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen275
+\lightrulewidth=\dimen276
+\cmidrulewidth=\dimen277
+\belowrulesep=\dimen278
+\belowbottomsep=\dimen279
+\aboverulesep=\dimen280
+\abovetopsep=\dimen281
+\cmidrulesep=\dimen282
+\cmidrulekern=\dimen283
+\defaultaddspace=\dimen284
+\@cmidla=\count322
+\@cmidlb=\count323
+\@aboverulesep=\dimen285
+\@belowrulesep=\dimen286
+\@thisruleclass=\count324
+\@lastruleclass=\count325
+\@thisrulewidth=\dimen287
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.s
+ty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen288
+\TX@old@table=\dimen289
+\TX@old@col=\dimen290
+\TX@target=\dimen291
+\TX@delta=\dimen292
+\TX@cols=\count326
+\TX@ftn=\toks35
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumite
+m.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen293
+\enit@toks=\toks36
+\enit@inbox=\box69
+\enit@count@id=\count327
+\enitdp@description=\count328
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2
+e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip56
+\RaggedLeftLeftskip=\skip57
+\RaggedRightLeftskip=\skip58
+\CenteringRightskip=\skip59
+\RaggedLeftRightskip=\skip60
+\RaggedRightRightskip=\skip61
+\CenteringParfillskip=\skip62
+\RaggedLeftParfillskip=\skip63
+\RaggedRightParfillskip=\skip64
+\JustifyingParfillskip=\skip65
+\CenteringParindent=\skip66
+\RaggedLeftParindent=\skip67
+\RaggedRightParindent=\skip68
+\JustifyingParindent=\skip69
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/marginnote\margi
+nnote.sty
+Package: marginnote 2026-06-15 1.5 non floating margin notes for LaTeX 
+\c@mn@abspage=\count329
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/changepage\chang
+epage.sty
+Package: changepage 2026-09-15 v2.0b check page and change page layout
+\c@cp@cntr=\count330
+\cp@tempcnt=\count331
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolor
+box.sty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.s
+ty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks37
+\verbatim@line=\toks38
+\verbatim@in@stream=\read3
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.
+sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trims
+paces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks39
+)
+\tcb@titlebox=\box70
+\tcb@upperbox=\box71
+\tcb@lowerbox=\box72
+\tcb@phantombox=\box73
+\c@tcbbreakpart=\count332
+\c@tcblayer=\count333
+\c@tcolorbox@number=\count334
+\l__tcobox_tmpa_box=\box74
+\l__tcobox_tmpa_dim=\dimen294
+\tcb@temp=\box75
+\tcb@temp=\box76
+\tcb@temp=\box77
+\tcb@temp=\box78
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbras
+ter.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
+\c@tcbrastercolumn=\count335
+\c@tcbrasterrow=\count336
+\c@tcbrasternum=\count337
+\c@tcbraster=\count338
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbski
+ns.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfil
+l.image.sty
+Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlib
+raryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
+\l__tikzfill_tmpa_dim=\dimen295
+\l__tikzfill_tmpb_dim=\dimen296
+\l__tikzfill_img_box=\box79
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbski
+nsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbre
+akable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.st
+y
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmd
+s.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infw
+arerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
+)
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box80
+\tcb@totalupperbox=\box81
+\tcb@totallowerbox=\box82
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhoo
+ks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbthe
+orems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.
+sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip70
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.
+sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.s
+ty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks40
+\ex@=\dimen297
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.s
+ty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen298
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.s
+ty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count339
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count340
+\leftroot@=\count341
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count342
+\DOTSCASE@=\count343
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box83
+\strutbox@=\box84
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen299
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count344
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count345
+\dotsspace@=\muskip17
+\c@parentequation=\count346
+\dspbrk@lvl=\count347
+\tag@help=\toks41
+\row@=\count348
+\column@=\count349
+\maxfields@=\count350
+\andhelp@=\toks42
+\eqnshift@=\dimen300
+\alignsep@=\dimen301
+\tagshift@=\dimen302
+\tagwidth@=\dimen303
+\totwidth@=\dimen304
+\lineht@=\dimen305
+\@envbody=\toks43
+\multlinegap=\skip71
+\multlinetaggap=\skip72
+\mathdisplay@stack=\toks44
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfit
+ting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
+\tcbfitdim=\dimen306
+\tcb@lowerfitdim=\dimen307
+\tcb@upperfitdim=\dimen308
+\tcb@cur@hbadness=\count351
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblis
+tingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblis
+tings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/listings\listing
+s.sty
+\lst@mode=\count352
+\lst@gtempboxa=\box85
+\lst@token=\toks45
+\lst@length=\count353
+\lst@currlwidth=\dimen309
+\lst@column=\count354
+\lst@pos=\count355
+\lst@lostspace=\dimen310
+\lst@width=\dimen311
+\lst@newlines=\count356
+\lst@lineno=\count357
+\lst@maxwidth=\dimen312
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatc
+h.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc
+.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count358
+\lst@skipnumbers=\count359
+\lst@framebox=\box86
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/listings\listing
+s.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblis
+tingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbpro
+cessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
+)
+\c@tcblisting=\count360
+))
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
+Library `listings` is loaded instead. on input line 29.
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbext
+ernal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.9.0'
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmag
+azine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.9.0'
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvig
+nette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.9.0'
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\
+pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbpos
+ter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlese
+c.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box87
+\beforetitleunit=\skip73
+\aftertitleunit=\skip74
+\ttl@plus=\dimen313
+\ttl@minus=\dimen314
+\ttl@toksa=\toks46
+\titlewidth=\dimen315
+\titlewidthlast=\dimen316
+\titlewidthfirst=\dimen317
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhd
+r.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip75
+\f@nch@offset@elh=\skip76
+\f@nch@offset@erh=\skip77
+\f@nch@offset@olh=\skip78
+\f@nch@offset@orh=\skip79
+\f@nch@offset@elf=\skip80
+\f@nch@offset@erf=\skip81
+\f@nch@offset@olf=\skip82
+\f@nch@offset@orf=\skip83
+\f@nch@height=\skip84
+\f@nch@footalignment=\skip85
+\f@nch@widthL=\skip86
+\f@nch@widthC=\skip87
+\f@nch@widthR=\skip88
+\@temptokenb=\toks47
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.
+sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3
+.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen318
+\captionmargin=\dimen319
+\caption@leftmargin=\dimen320
+\caption@rightmargin=\dimen321
+\caption@width=\dimen322
+\caption@indent=\dimen323
+\caption@parindent=\dimen324
+\caption@hangindent=\dimen325
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count361
+\c@continuedfloat=\count362
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen326
+\caption@adjustwidth@linewidth=\dimen327
+Package caption Info: listings package is loaded.
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperre
+f.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetk
+eys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\k
+vdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfe
+scape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdf
+texcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.
+sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref
+.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcoun
+t.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring
+\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvopti
+ons.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count363
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stri
+ngenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen328
+\Hy@linkcounter=\count364
+\Hy@pagecounter=\count365
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.
+def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcal
+c.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count366
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.d
+ef
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count367
+ (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen329
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.
+sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\big
+intcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count368
+\Field@Width=\dimen330
+\Fld@charsize=\dimen331
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring ON on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count369
+\c@Item=\count370
+\c@Hfootnote=\count371
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.
+def
+File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+\pdfm@box=\box88
+\c@Hy@AnnotLevel=\count372
+\HyField@AnnotCount=\count373
+\Fld@listcount=\count374
+\c@bookmark@seq@number=\count375
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\r
+erunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\
+uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip89
+))
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 347.12361pt, 193.47876pt)
+* v-part:(T,H,B)=(62.59605pt, 714.16418pt, 68.2866pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=347.12361pt
+* \textheight=714.16418pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-44.43613pt
+* \headheight=12.0pt
+* \headsep=22.76219pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=125.19212pt
+* \marginparsep=19.91692pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 10.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 10.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 10.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 10.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 10.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 10.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 10.
+LaTeX Font Info:    Redeclaring math accent \check on input line 10.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 10.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 10.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 10.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 10.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 10.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/SourceSerif4(0)/m/n on input line 10
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 10.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/SourceSerif4(0)/m/n on input line 1
+0.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/SourceSerif4(0)/m/n --> TU/SourceSerif4(0)/m/n on in
+put line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/SourceSerif4(0)/m/it on input line 
+10.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/SourceSerif4(0)/b/n on input line 1
+0.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/SourceSans3(0)/m/n on input line 10
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 10.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/SourceSerif4(0)/m/n --> TU/SourceSerif4(0)/b/n on in
+put line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/SourceSerif4(0)/b/it on input line
+ 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/SourceSans3(0)/b/n on input line 1
+0.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 10.
+LaTeX Info: Redefining \microtypecontext on input line 10.
+Package microtype Info: Applying patch `item' on input line 10.
+Package microtype Info: Applying patch `toc' on input line 10.
+Package microtype Info: Applying patch `eqnum' on input line 10.
+Package microtype Info: Applying patch `footnote' on input line 10.
+Package microtype Info: Applying patch `verbatim' on input line 10.
+LaTeX Info: Redefining \microtypesetup on input line 10.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `SourceSerif4' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+\c@lstlisting=\count376
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 10.
+(main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `SourceSans3' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (sections/s00_intro.tex) (sections/s01_exchange_rate.tex
+[1
+
+]
+
+LaTeX Warning: Marginpar on page 2 moved.
+
+File: images/kathmandu_board.jpg Graphic file (type bmp)
+<images/kathmandu_board.jpg>
+
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr
+.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)) (sections/s02_forex_market.tex [2]
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+(figures/fx_flow.tex) [3]
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+File: figures/remittances.pdf Graphic file (type pdf)
+<use figures/remittances.pdf>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 34.
+See the caption package documentation for explanation.
+
+[4]) (sections/s03_bop.tex
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+) (sections/s04_demand_supply.tex
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+[5]
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+(figures/ds_basic.tex) [6] [7]
+Underfull \hbox (badness 1117) in paragraph at lines 53--54
+\TU/SourceSerif4(0)/m/n/10.95 export earnings increase their supply. The result
+ing exchange
+ []
+
+) (sections/s05_appreciation.tex [8]
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+) (sections/s06_systems.tex
+Underfull \hbox (badness 1028) in paragraph at lines 49--10
+\TU/SourceSerif4(0)/m/n/10.95 ment therefore depends on a person’s or business’
+s position in
+ []
+
+[9]
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+[10]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 64.
+See the caption package documentation for explanation.
+
+[11] [12]) (sections/s07_reserves.tex
+Underfull \hbox (badness 1701) in paragraph at lines 13--14
+[]\TU/SourceSerif4(0)/m/n/10.95 India’s foreign exchange reserves are made up o
+f four compo-
+ []
+
+File: figures/reserves.pdf Graphic file (type pdf)
+<use figures/reserves.pdf>
+[13] (figures/ds_intervention.tex)) (sections/s08_real_ppp.tex [14]
+File: figures/real_rate.pdf Graphic file (type pdf)
+<use figures/real_rate.pdf>
+ [15]
+Underfull \hbox (badness 1221) in paragraph at lines 31--32
+\TU/SourceSerif4(0)/m/n/10.95 port costs and import taxes mean that identical g
+oods are not
+ []
+
+[16]) (sections/s09_what_moves.tex
+File: figures/rupee_history.pdf Graphic file (type pdf)
+<use figures/rupee_history.pdf>
+ [17] (figures/ds_shocks.tex) [18] [19])
+(sections/s10_why_matters.tex [20] (figures/imported_inflation.tex))
+(sections/s11_crises.tex [21]
+File: figures/srilanka_index.pdf Graphic file (type pdf)
+<use figures/srilanka_index.pdf>
+ [22] [23]) (sections/s12_conclusion.tex) [24]
+[25] (sections/e1_glossary.tex [26
+
+] [27]) (sections/e2_questions.tex [28]
+[29]) (sections/e3_further_learning.tex) (sections/e4_references.tex [30]
+[31] [32]) [33] (main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A2DE59DD2F3DC4F47A5C42FFC510D77B;6275.
+ ) 
+Here is how much of TeX's memory you used:
+ 34806 strings out of 402987
+ 743404 string characters out of 5447076
+ 1297768 words of memory out of 5000000
+ 62945 multiletter control sequences out of 15000+600000
+ 633477 words of font info for 108 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,13n,112p,1246b,1341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.xdv (33 pages, 1112156 bytes).

@@ -1,0 +1,49 @@
+% Figure M1-2: who demands and who supplies US dollars in India's forex market.
+% Drawn in TikZ so it stays sharp and editable. Uses colours from fxstyle.sty.
+\begin{tikzpicture}[
+  font=\sffamily\small, every node/.append style={execute at begin node={\spaceskip=0.24em plus 0.04em minus 0.02em\relax}},
+  item/.style={draw=none, fill=white, rounded corners=1.2mm, minimum height=9.2mm,
+               text width=48mm, align=left, execute at begin node={\hyphenpenalty=10000\relax}, inner xsep=7pt, inner ysep=3pt},
+  head/.style={text=white, font=\sffamily\bfseries, align=center, text width=52mm,
+               minimum height=12mm, rounded corners=1.5mm},
+  who/.style={font=\sffamily\scriptsize\itshape, text=fxmuted},
+  flow/.style={-{Stealth[length=3.2mm,width=2.6mm]}, line width=1.6pt},
+]
+% ---- left column: demand ----
+\node[head, fill=fxorange] (dh) at (0,0)
+  {Who wants dollars?\\[-1pt]{\footnotesize\mdseries demand for foreign exchange}};
+\node[item, below=3mm of dh] (d1) {\textbf{Importers}\\[-1pt]{\footnotesize crude oil, gold, electronics, machines}};
+\node[item, below=2mm of d1] (d2) {\textbf{Students and travellers abroad}\\[-1pt]{\footnotesize \textcolor{fxorange}{e.g.\ Meera's college fees}}};
+\node[item, below=2mm of d2] (d3) {\textbf{Indians investing abroad}\\[-1pt]{\footnotesize shares, property, firms}};
+\node[item, below=2mm of d3] (d4) {\textbf{Repaying foreign loans}\\[-1pt]{\footnotesize firms and government}};
+\begin{scope}[on background layer]
+  \node[fill=fxorange!10, rounded corners=2mm, inner sep=3mm, fit=(dh)(d4)] (dbox) {};
+\end{scope}
+
+% ---- right column: supply ----
+\node[head, fill=fxteal] (sh) at (13.4,0)
+  {Who brings dollars in?\\[-1pt]{\footnotesize\mdseries supply of foreign exchange}};
+\node[item, below=3mm of sh] (s1) {\textbf{Exporters}\\[-1pt]{\footnotesize \textcolor{fxteal}{e.g.\ Selvi's T-shirts}, IT services}};
+\node[item, below=2mm of s1] (s2) {\textbf{Remittances}\\[-1pt]{\footnotesize \textcolor{fxteal}{e.g.\ Ravi's money from Dubai}}};
+\node[item, below=2mm of s2] (s3) {\textbf{Foreign tourists in India}\\[-1pt]{\footnotesize hotels, travel, shopping}};
+\node[item, below=2mm of s3] (s4) {\textbf{Foreigners investing in India}\\[-1pt]{\footnotesize FDI and FPI}};
+\begin{scope}[on background layer]
+  \node[fill=fxteal!10, rounded corners=2mm, inner sep=3mm, fit=(sh)(s4)] (sbox) {};
+\end{scope}
+
+% ---- centre: the market ----
+\coordinate (mid) at ($(dbox.east)!0.5!(sbox.west)$);
+\node[fill=fxnavy, text=white, rounded corners=3mm, text width=36mm, align=center,
+      minimum height=34mm, inner sep=6pt] (mkt) at (mid)
+  {\heavysans\large Foreign\\exchange market\\[5pt]
+   {\footnotesize\sffamily banks and other authorised dealers, regulated by the RBI}};
+\node[fill=white, draw=fxnavy, line width=0.8pt, rounded corners=1.5mm, below=4mm of mkt,
+      align=center, text width=34mm, inner sep=4pt] (price)
+  {{\footnotesize\color{fxmuted}the price that clears it}\\[-1pt]{\heavysans\color{fxnavy}\large ₹ per US dollar}};
+
+% ---- flows ----
+\draw[flow, fxorange] (dbox.east |- mkt.150) -- (mkt.150)
+  node[pos=0.5, above=1pt, font=\sffamily\scriptsize\bfseries, text=fxorange, align=center] {offer rupees,\\ want dollars};
+\draw[flow, fxteal] (sbox.west |- mkt.30) -- (mkt.30)
+  node[pos=0.5, above=1pt, font=\sffamily\scriptsize\bfseries, text=fxteal, align=center] {offer dollars,\\ want rupees};
+\end{tikzpicture}

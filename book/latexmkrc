@@ -1,0 +1,1 @@
+$pdf_mode = 5;   # use XeLaTeX (needed for the bundled fonts and the ₹ sign)

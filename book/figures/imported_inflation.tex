@@ -1,0 +1,17 @@
+% Figure (Section 10, Member 4): how a weaker rupee turns into imported inflation.
+% Same look as Member 1's flow diagram (Figure 2).
+\begin{tikzpicture}[
+  font=\sffamily\small,
+  chainbox/.style={fill=fxnavy!8, draw=fxnavy, line width=0.8pt, rounded corners=1.5mm,
+               text width=24mm, minimum height=19mm, align=center, inner sep=3pt},
+  last/.style={chainbox, fill=fxorange, draw=fxorange, text=white},
+  flow/.style={-{Stealth[length=2.6mm,width=2.2mm]}, line width=1.3pt, fxnavy},
+  node distance=5mm,
+]
+\node[chainbox] (a) {\textbf{Rupee weakens}\\[2pt]{\footnotesize ₹85 → ₹90 per US dollar}};
+\node[chainbox, right=of a] (b) {\textbf{Imports cost more}\\[2pt]{\footnotesize crude oil, edible oil, electronics, fertiliser}};
+\node[chainbox, right=of b] (c) {\textbf{Fuel prices rise}\\[2pt]{\footnotesize petrol, diesel and LPG}};
+\node[chainbox, right=of c] (d) {\textbf{Costs rise}\\[2pt]{\footnotesize transport and production}};
+\node[last, right=of d] (e) {\textbf{Prices rise}\\[2pt]{\footnotesize food and everyday goods: imported inflation}};
+\foreach \u/\v in {a/b, b/c, c/d, d/e} \draw[flow] (\u) -- (\v);
+\end{tikzpicture}

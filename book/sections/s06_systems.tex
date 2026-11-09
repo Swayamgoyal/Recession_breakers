@@ -1,0 +1,93 @@
+% ============================================================
+%  SECTION 6: Exchange rate systems                (Member 3)
+%  Member 3's text, trimmed. Changes at merge:
+%   - pros and cons of each system moved into a "When economists disagree" box
+%   - "Think about it" box became an Exercise box (allowed box type)
+%   - 1947-71 now gives the 1949 and 1966 rates; 1991 gold figures corrected
+%     (about 47 tonnes pledged with the BoE and BoJ; 20 tonnes sold earlier)
+%   - timeline redrawn with the rupee's rate at each stage
+% ============================================================
+\section{Exchange rate systems: fixed, flexible and managed}\label{sec:systems}
+
+We have learnt what exchange rates are, how they affect our lives, and what makes the rupee appreciate or depreciate. But does the market always set the rate, and what systems has India used in its history? To answer this we first need to understand the different types of exchange rate systems.
+
+\subsection{Types of exchange rate systems}
+An \keyterm{exchange rate system}{The rules a country follows to manage the value of its currency against other currencies.} is how a country governs the value of its currency relative to others. There are three main types:
+
+\begin{enumerate}[leftmargin=1.4em, label=\arabic*., itemsep=4pt]
+\item \textbf{Fixed exchange rate system.} In a \keyterm{fixed (pegged) exchange rate}{An exchange rate held at a set value against another currency, a basket of currencies or gold by the central bank.} system, a country's monetary authority sets and upholds a constant value of its currency against another currency, a basket of currencies, or a commodity like gold. Central banks intervene by buying or selling foreign currency to keep the rate steady.
+\item \textbf{Floating exchange rate system.} In a \keyterm{floating (flexible) exchange rate}{An exchange rate set by demand and supply in the market, with little government control.} system, the currency's value is determined purely by market supply and demand, with little to no direct government control. This is the market described in \secref{sec:ds}.
+\item \textbf{Managed floating (dirty float) system.} This is a hybrid of the two systems above. In a \keyterm{managed float}{An exchange rate mainly set by the market, with the central bank stepping in to prevent sharp swings.}, currency values are primarily set by the market, but the central bank occasionally steps in to prevent extreme swings.
+\end{enumerate}
+
+Each system has its supporters, and each comes with risks, as the box below shows.
+
+\begin{economistsdisagree}{Fixed or floating?}
+\textbf{For a fixed rate.} It provides certainty and stability, which helps businesses that trade across borders and keeps inflation in check. \textbf{Against:} the country must hold large reserves of foreign currency to defend the rate, and if the rate is set incorrectly, it can lead to an economic crisis like the one India faced in 1991.
+
+\textbf{For a floating rate.} Its supporters call it self-correcting, as exchange rate adjustments reduce trade imbalances over time. The government does not need large reserves and the currency reflects the true state of the economy. \textbf{Against:} rates can be volatile and unpredictable, making it harder for businesses to plan.
+
+\textbf{The middle way.} A managed float combines flexibility with a safety net. But interventions can be unpredictable, and there is a risk of governments using them to artificially weaken their currency for trade advantages.
+
+Which risk would you rather live with: a rate that cannot move, or a rate that may move too much?
+\end{economistsdisagree}
+
+\begin{exercise}{Spot the switch}
+Do you know which of these three systems India uses today? As you read through the history below, see if you can identify the moment India switched to its current system.
+\answers{A managed float, since the two exchange rates were unified in March 1993.}
+\end{exercise}
+
+\begin{casestudy}{India's exchange rate regimes, 1947--1993}
+India's approach to managing the rupee went through several distinct phases before it arrived at the managed float used today. Each change was driven by a combination of global events and domestic pressures (Figure~\ref{fig:timeline}).
+
+\medskip
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+  font=\sffamily\small,
+  era/.style={fill=white, draw=fxnavy, line width=0.7pt, rounded corners=1.5mm,
+              text width=27mm, minimum height=19mm, align=center, inner sep=3pt},
+  crisis/.style={era, draw=fxorange, fill=fxorange!8},
+  arr/.style={-{Stealth[length=2.4mm]}, line width=1pt, fxnavy},
+  node distance=6mm and 7mm,
+]
+\node[era] (a) {\textbf{1947}\\Pegged to sterling\\{\footnotesize\bfseries\color{fxorange}≈ ₹3.31 per \$}};
+\node[era, right=of a] (b) {\textbf{1949}\\Britain devalues the pound\\{\footnotesize\bfseries\color{fxorange}₹4.76 per \$}};
+\node[crisis, right=of b] (c) {\textbf{1966}\\India devalues the rupee\\{\footnotesize\bfseries\color{fxorange}₹7.50 per \$}};
+\node[era, right=of c] (d) {\textbf{1971}\\Nixon shock: brief dollar peg, back to sterling};
+\node[era, below=of d] (e) {\textbf{1975}\\Basket of currencies\\{\footnotesize\bfseries\color{fxorange}≈ ₹8 per \$}};
+\node[crisis, left=of e] (f) {\textbf{1991}\\BoP crisis and devaluation\\{\footnotesize\bfseries\color{fxorange}≈ ₹26 per \$}};
+\node[era, left=of f] (g) {\textbf{1992}\\LERMS:\\dual exchange rate};
+\node[era, left=of g, draw=fxteal, fill=fxteal!8] (h) {\textbf{1993 onwards}\\Market rate,\\managed float\\{\footnotesize\bfseries\color{fxorange}≈ ₹31 per \$}};
+\foreach \u/\v in {a/b, b/c, c/d, d/e, e/f, f/g, g/h} \draw[arr] (\u) -- (\v);
+\end{tikzpicture}}
+\captionof{figure}{India's exchange rate regimes since Independence, with the rupee's value against the US dollar.}\label{fig:timeline}
+\figsource{Drawn by the authors. Rates for 1975, 1991 and 1993 are monthly averages from FRED (Board of Governors of the Federal Reserve System, 2026a); earlier rates are official parities.}
+\raggedright
+
+\medskip
+\minihead{1947--1971: Bretton Woods and the sterling peg.}
+After Independence in 1947, India joined the Bretton Woods system, under which the US dollar was pegged to gold at \$35 per ounce and all other currencies were pegged to the dollar. India chose to use the British pound sterling as its intervention currency rather than the dollar, largely because of its long-standing economic and colonial ties with Britain. Because the rupee moved with sterling, it was worth about ₹3.31 per dollar at first and ₹4.76 after Britain devalued the pound in 1949. In June 1966, after a war and two droughts had drained its foreign exchange, India devalued the rupee to ₹7.50 per dollar.
+
+\minihead{1971--1975: The Nixon shock.}
+In 1971, the US government ended its commitment to convert dollars into gold, an event known as the Nixon shock, which caused the Bretton Woods system to collapse. India briefly shifted its peg to the US dollar in August 1971, but returned to sterling in December of the same year. This was beneficial because sterling's depreciation allowed the rupee to depreciate with it, improving India's export competitiveness during the oil crisis of 1973.
+
+\minihead{1975--1991: A basket of currencies.}
+When sterling itself became unstable in the mid-1970s, India moved away from pegging to a single currency. In 1975, the RBI linked the rupee to a weighted basket of its major trading partners' currencies, whose exact make-up the RBI did not disclose. This made the rupee more stable, since weakness in one currency could be offset by strength in others. However, by the late 1980s, India was spending far more on imports than it earned from exports and borrowing heavily to cover the gap, setting the stage for crisis.
+
+\minihead{1991: The balance of payments crisis.}
+By 1991, India's foreign exchange reserves had fallen so low that the country could pay for only about two weeks of imports. To raise emergency funds, the RBI pledged about 47 tonnes of gold with the Bank of England and the Bank of Japan, after 20 tonnes had already been sold abroad with an option to buy them back (Business Standard, 2013). To restore export competitiveness, the rupee was devalued by approximately 18--20 per cent against the dollar over just three days (1--3 July 1991), and a broader programme of economic liberalisation was launched.
+
+\minihead{1992--1993: The dual rate system (LERMS).}
+As a bridge to a fully market-determined system, India introduced the Liberalised Exchange Rate Management System (LERMS) in March 1992. Exporters were required to surrender 40 per cent of their foreign exchange earnings to the RBI at a fixed official rate, while the remaining 60 per cent could be converted at the market rate. This arrangement lasted only until March 1993, when the two rates were unified into a single market-determined rate.
+\end{casestudy}
+
+\subsection{India's exchange rate system today}
+Since March 1993, India has operated under a market-determined exchange rate, known as a managed float. The dual exchange rate system was abolished, and the value of the rupee became primarily set by the forces of supply and demand.
+
+Under this system, the RBI does not fix the rupee's value, but it does intervene from time to time by buying or selling foreign exchange to prevent excessive or abrupt fluctuations. In 1994, India also made the rupee fully convertible on the current account, meaning individuals and businesses could freely exchange rupees for foreign currencies for trade in goods, services and income, without needing prior government approval. However, full convertibility on the capital account (for investments and borrowings) is still not in place, and the RBI carefully regulates those flows to maintain financial stability.
+
+% [added at merge] a live example of a fixed rate
+\begin{didyouknow}{A fixed rate next door}
+Look again at the exchange board in Figure~\ref{fig:m1-board}. Nepal still uses a fixed exchange rate, but against the Indian rupee rather than the dollar: since 1993, 1.6 Nepalese rupees have always bought one Indian rupee (The Kathmandu Post, 2026). Bhutan's ngultrum is tied to the Indian rupee one for one. So when the Indian rupee weakens against the dollar, the Nepalese rupee and the ngultrum weaken with it, just as the rupee once moved with sterling.
+\end{didyouknow}

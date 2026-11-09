@@ -1,0 +1,46 @@
+% Figure (Section 4, Member 2): equilibrium, a rise in demand, a rise in supply.
+% Redrawn from Member 2's Figure 3.1 in the shared style; values match the text
+% (equilibrium ₹82, demand rise to ₹86, supply rise to ₹79).
+% Geometry: D: y = 3.2 - 0.8125(x - 0.4), S: y = 0.6 + 0.8125(x - 0.4), E at (2, 1.9).
+\begin{tikzpicture}[ds, x=0.75cm]
+\foreach \ox/\title in {0/{(a) Initial equilibrium}, 5.7/{(b) Demand increases}, 11.4/{(c) Supply increases}} {
+  \begin{scope}[shift={(\ox,0)}]
+    \draw[ds axis] (0,0) -- (0,3.7) node[above] {₹ per US dollar};
+    \draw[ds axis] (0,0) -- (5,0);
+    \node[below] at (2.5,0) {Quantity of US dollars};
+    \node[ds title] at (-0.4,4.15) {\title};
+  \end{scope}
+}
+% (a)
+\draw[ds demand] (0.4,3.2) -- (3.6,0.6) node[below] {D};
+\draw[ds supply] (0.4,0.6) -- (3.6,3.2) node[above] {S};
+\draw[ds guide] (0,1.9) -- (2,1.9) -- (2,0);
+\node[ds eq] at (2,1.9) {}; \node[above=3pt] at (2,1.9) {\textbf{E}};
+\node[left] at (0,1.9) {82};
+% (b) demand shifts right by 1: E1 at (2.5, 2.306)
+\begin{scope}[shift={(5.7,0)}]
+  \draw[ds demand] (0.4,3.2) -- (3.6,0.6) node[below] {D\textsubscript{0}};
+  \draw[ds demand, ds new] (1.4,3.2) -- (4.6,0.6) node[below] {D\textsubscript{1}};
+  \draw[ds supply] (0.4,0.6) -- (3.6,3.2) node[above] {S};
+  \draw[ds shift] (2.95,1.2) -- (3.75,1.2);
+  \draw[ds guide] (0,1.9) -- (2,1.9) -- (2,0);
+  \draw[ds guide] (0,2.306) -- (2.5,2.306) -- (2.5,0);
+  \node[ds eq] at (2,1.9) {}; \node[below=3pt] at (2,1.9) {E\textsubscript{0}};
+  \node[ds eq=fxgreen] at (2.5,2.306) {}; \node[above=3pt, text=fxgreen] at (2.5,2.306) {\textbf{E\textsubscript{1}}};
+  \node[left] at (0,1.9) {82};
+  \node[left, text=fxgreen] at (0,2.306) {\textbf{86}};
+\end{scope}
+% (c) supply shifts right by 0.8: E1 at (2.4, 1.575)
+\begin{scope}[shift={(11.4,0)}]
+  \draw[ds demand] (0.4,3.2) -- (3.6,0.6) node[below] {D};
+  \draw[ds supply] (0.4,0.6) -- (3.6,3.2) node[above] {S\textsubscript{0}};
+  \draw[ds supply, ds new] (1.2,0.6) -- (4.4,3.2) node[above] {S\textsubscript{1}};
+  \draw[ds shift] (2.95,2.6) -- (3.55,2.6);
+  \draw[ds guide] (0,1.9) -- (2,1.9) -- (2,0);
+  \draw[ds guide] (0,1.575) -- (2.4,1.575) -- (2.4,0);
+  \node[ds eq] at (2,1.9) {}; \node[above=3pt] at (2,1.9) {E\textsubscript{0}};
+  \node[ds eq=fxgreen] at (2.4,1.575) {}; \node[below=3pt, text=fxgreen] at (2.4,1.575) {\textbf{E\textsubscript{1}}};
+  \node[left] at (0,1.9) {82};
+  \node[left, text=fxgreen] at (0,1.575) {\textbf{79}};
+\end{scope}
+\end{tikzpicture}
