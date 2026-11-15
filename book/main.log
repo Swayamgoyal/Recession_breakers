@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.10.14)  15 NOV 2026 19:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.10.14)  15 NOV 2026 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,8 +1207,8 @@ File: figures/rupee_history.pdf Graphic file (type pdf)
 <use figures/rupee_history.pdf>
  [8]
 (./figures/ds_shocks.tex)
-File: images/comic.png Graphic file (type bmp)
-<images/comic.png>
+File: images/comic3.png Graphic file (type bmp)
+<images/comic3.png>
  [9]) (./sections/s10_why_matters.tex [10]
 (./figures/imported_inflation.tex)) (./sections/s11_crises.tex [11]
 File: figures/srilanka_index.pdf Graphic file (type pdf)
@@ -1230,7 +1230,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  35175 strings out of 476846
- 753850 string characters out of 5803823
+ 753859 string characters out of 5803823
  1962627 words of memory out of 5000000
  56464 multiletter control sequences out of 15000+600000
  563841 words of font info for 106 fonts, out of 8000000 for 9000
