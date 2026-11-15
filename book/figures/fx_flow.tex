@@ -37,9 +37,7 @@
       minimum height=34mm, inner sep=6pt] (mkt) at (mid)
   {\heavysans\large Foreign\\exchange market\\[5pt]
    {\footnotesize\sffamily banks and other authorised dealers, regulated by the RBI}};
-\node[fill=white, draw=fxnavy, line width=0.8pt, rounded corners=1.5mm, below=4mm of mkt,
-      align=center, text width=34mm, inner sep=4pt] (price)
-  {{\footnotesize\color{fxmuted}the price that clears it}\\[-1pt]{\heavysans\color{fxnavy}\large ₹ per US dollar}};
+% [review 15 Nov 2026] "the price that clears it: ₹ per US dollar" label removed (reviewer note)
 
 % ---- flows ----
 \draw[flow, fxorange] (dbox.east |- mkt.150) -- (mkt.150)

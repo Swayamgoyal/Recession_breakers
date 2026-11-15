@@ -1,0 +1,24 @@
+\documentclass[11pt]{article}
+\usepackage{fxstyle}
+\pagestyle{empty}
+\begin{document}
+\noindent \resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+  font=\sffamily\small,
+  era/.style={fill=white, draw=fxnavy, line width=0.7pt, rounded corners=1.5mm,
+              text width=27mm, minimum height=19mm, align=center, inner sep=3pt},
+  crisis/.style={era, draw=fxorange, fill=fxorange!8},
+  arr/.style={-{Stealth[length=2.4mm]}, line width=1pt, fxnavy},
+  node distance=6mm and 7mm,
+]
+\node[era] (a) {\textbf{1947}\\Pegged to sterling\\{\footnotesize\bfseries\color{fxorange}≈ ₹3.31 per \$}};
+\node[era, right=of a] (b) {\textbf{1949}\\Britain devalues the pound\\{\footnotesize\bfseries\color{fxorange}₹4.76 per \$}};
+\node[crisis, right=of b] (c) {\textbf{1966}\\India devalues the rupee\\{\footnotesize\bfseries\color{fxorange}₹7.50 per \$}};
+\node[era, right=of c] (d) {\textbf{1971}\\Nixon shock: brief dollar peg, back to sterling};
+\node[era, below=of d] (e) {\textbf{1975}\\Basket of currencies\\{\footnotesize\bfseries\color{fxorange}≈ ₹8 per \$}};
+\node[crisis, left=of e] (f) {\textbf{1991}\\BoP crisis and devaluation\\{\footnotesize\bfseries\color{fxorange}≈ ₹26 per \$}};
+\node[era, left=of f] (g) {\textbf{1992}\\LERMS:\\dual exchange rate};
+\node[era, left=of g, draw=fxteal, fill=fxteal!8] (h) {\textbf{1993 onwards}\\Market rate,\\managed float\\{\footnotesize\bfseries\color{fxorange}≈ ₹31 per \$}};
+\foreach \u/\v in {a/b, b/c, c/d, d/e, e/f, f/g, g/h} \draw[arr] (\u) -- (\v);
+\end{tikzpicture}}
+\end{document}

@@ -64,8 +64,12 @@
 \RequirePackage{fancyhdr}
 \RequirePackage[font={small,sf}, labelfont={bf,color=fxnavy}, labelsep=period,
                 justification=raggedright, singlelinecheck=false]{caption}
+% numbered superscript citations (in order of first use) -> References list
+\RequirePackage[super,sort&compress,numbers]{natbib}
+\renewcommand{\bibnumfmt}[1]{#1.}
+\RequirePackage{perpage}
 \RequirePackage[colorlinks=true, linkcolor=fxnavy, urlcolor=fxteal,
-                citecolor=fxnavy]{hyperref}
+                citecolor=fxnavy, hyperfootnotes=false]{hyperref}
 \urlstyle{sf}
 
 % ---------- headings ----------
@@ -90,8 +94,16 @@
 
 % ---------- key terms: bold in text + definition in the margin ----------
 % \keyterm{term as it appears}{one-line definition}
+% \keyterm[shorter margin text]{term}{glossary definition}
+% \defterm{term}{definition}: bold in text, no margin note. Used when the
+%   sentence already defines the term; the definition still goes to the glossary.
 % \marginpar stacks notes so they never overlap each other.
-\newcommand{\keyterm}[2]{\textbf{#1}\marginpar{\footnotesize\sffamily\RaggedRight
+\NewDocumentCommand{\keyterm}{o m m}{\textbf{#2}\marginpar{\footnotesize\sffamily\RaggedRight
+  {\color{fxnavy}\bfseries #2}\quad\IfValueTF{#1}{#1}{#3}\par}}
+\newcommand{\defterm}[2]{\textbf{#1}}
+% \termnote{term}{extra point}: a margin note that adds to a term the text
+%   already defines (no glossary entry).
+\newcommand{\termnote}[2]{\marginpar{\footnotesize\sffamily\RaggedRight
   {\color{fxnavy}\bfseries #1}\quad#2\par}}
 % a plain note in the margin (sources, workings)
 \newcommand{\sidenote}[1]{\marginpar{\footnotesize\sffamily\RaggedRight\color{fxmuted}#1\par}}
@@ -136,8 +148,24 @@
   boxed title style={colback=fxnavy}, title={Case study\enspace\textmd{#1}}, top=12pt}
 \newtcolorbox{economistsdisagree}[1]{fxbase, colback=fxorangebg, borderline west={3pt}{0pt}{fxorange},
   boxed title style={colback=fxorange}, title={When economists disagree\enspace\textmd{#1}}, top=12pt}
-% small answer line used at the foot of boxes
-\newcommand{\answers}[1]{\par\smallskip{\color{fxmuted}\footnotesize\textbf{Answers.} #1}}
+% Answers go to the foot of the page, not under the question.
+% \answers{...} puts a mark (*, †, ‡, restarting on each page) where it is
+% written; the answer itself is set as a page-foot note just after the box.
+% Symbols are used because numbers are taken by the citations.
+\newcounter{fxans}
+\MakePerPage{fxans}
+\gdef\fx@pendinganswer{}
+\newcommand{\answers}[1]{\unskip\stepcounter{fxans}\xdef\fx@ansnum{\arabic{fxans}}%
+  \textsuperscript{\@fnsymbol{\fx@ansnum}}\gdef\fx@pendinganswer{#1}}
+\newcommand{\fx@flushanswers}{%
+  \ifx\fx@pendinganswer\@empty\else
+    \begingroup\def\@thefnmark{\@fnsymbol{\fx@ansnum}}%
+    \@footnotetext{\sffamily\color{fxmuted}\textbf{Answers.} \fx@pendinganswer}\endgroup
+    \gdef\fx@pendinganswer{}%
+  \fi}
+\RequirePackage{etoolbox}
+\@for\fx@env:={didyouknow,workedexample,exercise,economistsfacts,keypoints,casestudy,economistsdisagree}\do{%
+  \expandafter\AfterEndEnvironment\expandafter{\fx@env}{\fx@flushanswers}}
 
 % ---------- figure helpers ----------
 \newcommand{\figsource}[1]{\par\vspace{2pt}{\sffamily\scriptsize\color{fxmuted}Source: #1\par}}

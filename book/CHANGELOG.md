@@ -9,7 +9,7 @@ In the `.tex` files, sentences added at the merge carry a `% [added at merge]` c
 | Topic | Decision |
 |---|---|
 | Format | LaTeX in Member 1's style (`fxstyle.sty`), compiled with XeLaTeX |
-| Word limit | 5,000 words of main text (10% over allowed). Current total: **4,892** (see `word_count.md`) |
+| Word limit | Agreed at merge: 5,000 words of main text. Project guidelines say 4,000 maximum. Main text after the 15 Nov review: **4,660** (see `word_count.md`) |
 | Section B | Dropped. Member 1's spread box and forward-contract case study already cover it |
 | Numbering | Sections 1–11 in order. Figures and tables numbered 1, 2, 3… Cross-references read "(see Section 4)" |
 | Notation | ₹ with lower-case "rupee" and "dollar", "₹82 per US dollar" in text, "per cent" in prose, % in tables |
@@ -113,3 +113,28 @@ Member 3's sentences are kept wherever possible. The main text was trimmed from 
   - The basket sentence now says the RBI did not disclose the basket's make-up. The unconfirmed list of five currencies was removed.
   - Added a "Did you know? A fixed rate next door" box on Nepal's peg (1.6 Nepalese rupees per Indian rupee since 1993, The Kathmandu Post, 2026) and Bhutan's one-for-one peg. The Bhutan peg has no citation; add the Royal Monetary Authority of Bhutan as a source if you can.
 - **Table 3 (Member 4):** India's 1991–92 inflation is now "13.7% (wholesale prices)", cited to the RBI Handbook of Statistics, replacing "about 14%".
+
+## Third pass: review highlights from Rahul and Kris (15 November 2026)
+
+Made from the comments in `eco_porject.pdf` (51 highlights). The pre-review book is saved in `old_files/book_before_review_edits_2026-11-15/`. Sentences changed in this pass carry a `% [review 15 Nov 2026]` comment where a whole item was removed.
+
+**Book-wide rules**
+- **Citations:** author-date citations such as "(Reserve Bank of India [RBI], 2026a)" are now superscript numbers (`\cite{key}`), so they add no words. The reference list is numbered in order of first citation. APA entries live in `source/references.tex`, and `source/number_references.py` writes `sections/e4_references.tex`, leaving out sources no longer cited (Business Standard 2025a, RBI n.d., Khan Academy, which stays in Further learning).
+- **Margin notes:** dropped wherever the sentence already defines the term (new `\defterm`). Margin notes stay only for FDI, FPI, export competitiveness and IMF programme, plus a one-line note on the interest rate differential (`\termnote`).
+- **Glossary:** now lists only the terms the text does not define in its own sentence (4 terms).
+- **Answers:** every box's answer is now a page-foot note marked *, †, ‡ (restarting on each page), not a line under the question.
+- **Semicolons:** removed everywhere in the text, boxes, captions, tables and end matter.
+- **Figure sources:** "Drawn by the authors" and "values are hypothetical" source lines removed. Data sources shortened to one line with a citation number.
+
+**By section**
+- **1 (M1):** "foreign trade" now reads "payments for their imports and exports". The dirham sentence now says this is a peg (see Section 6). RBI is spelt out once.
+- **2 (M1):** the demand-side list now gives importers as the example and points to Figure 2. The supply side keeps Selvi and Ravi. The FDI sentence no longer repeats its margin note. FPI: "it can leave" became "this investment can leave". Remittances question (a) removed, (b) kept. Figure 2: the "the price that clears it: ₹ per US dollar" label removed.
+- **3 (M1):** the "software exports and remittances earn so much" sentence was reworded.
+- **4 (M2):** the two "increase in demand/supply" subsections were compressed into one paragraph each. The "other things remain constant" sentences were removed. "Draw the shift" was rewritten so both curves move in every case: one sure depreciation, one case where the answer depends on which shift is bigger, and one sure appreciation.
+- **6 (M3):** the four margin notes were removed, and the list's definitions now use their wording.
+- **7 (M3):** "Did you know? From crisis to confidence" removed (it repeated the chart and Section 11).
+- **9 (M4):** Figure 10 caption: "the rupee has depreciated" is now explained as "each dollar now costs more rupees, which is exactly what a depreciation of the rupee means". The economics is unchanged.
+- **10 (M4):** Selvi box cut to its first paragraph (the Tiruppur fact and the "not pure profit" paragraph removed). The lead-in now reads "The story of Selvi's unit shows how this works." "Now you try" removed from the oil worked example.
+- **11 (M4):** Table 3 (three crises compared) removed.
+
+**Word version:** `eco_project.docx` is built from the LaTeX by `source/build_docx.py`. Boxes become shaded Word styles, answers become Word footnotes, and margin notes become small "Key Term" paragraphs. Edit it by hand if needed, but changes made only in Word won't flow back into the LaTeX.

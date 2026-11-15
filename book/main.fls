@@ -260,6 +260,10 @@ INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\caption\capt
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\bigfoot\perpage.sty
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\bigfoot\perpage.sty
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
@@ -322,30 +326,35 @@ INPUT .\sections\s00_intro.tex
 INPUT .\sections\s00_intro.tex
 INPUT .\sections\s00_intro.tex
 INPUT sections\s00_intro.tex
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT .\sections\s01_exchange_rate.tex
 INPUT .\sections\s01_exchange_rate.tex
 INPUT .\sections\s01_exchange_rate.tex
 INPUT .\sections\s01_exchange_rate.tex
 INPUT sections\s01_exchange_rate.tex
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 OUTPUT main.xdv
 INPUT .\images\kathmandu_board.jpg
 INPUT .\images\kathmandu_board.jpg
 INPUT .\images\kathmandu_board.jpg
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT .\sections\s02_forex_market.tex
 INPUT .\sections\s02_forex_market.tex
 INPUT .\sections\s02_forex_market.tex
@@ -357,6 +366,7 @@ INPUT figures\fx_flow.tex
 INPUT .\figures\remittances.pdf
 INPUT .\figures\remittances.pdf
 INPUT .\figures\remittances.pdf
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT .\sections\s03_bop.tex
 INPUT .\sections\s03_bop.tex
 INPUT .\sections\s03_bop.tex
@@ -370,12 +380,6 @@ INPUT sections\s04_demand_supply.tex
 INPUT .\figures\ds_basic.tex
 INPUT .\figures\ds_basic.tex
 INPUT figures\ds_basic.tex
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT .\sections\s05_appreciation.tex
 INPUT .\sections\s05_appreciation.tex
 INPUT .\sections\s05_appreciation.tex

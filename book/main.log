@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.9.3)  10 NOV 2026 02:45
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.9.3)  15 NOV 2026 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -244,7 +244,6 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortb
 l.sty
 Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
-
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen161
@@ -793,7 +792,6 @@ Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
 sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip70
-
 For additional information on amsmath, use the `?' option.
 
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.
@@ -910,7 +908,6 @@ s.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
-
 ==> First Aid for listings.sty no longer applied!
     Expected:
         2024/09/23 1.10c (Carsten Heinz)
@@ -1012,6 +1009,19 @@ Package caption Info: changepage package is loaded.
 \caption@adjustwidth@linewidth=\dimen327
 Package caption Info: listings package is loaded.
 )
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.st
+y
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip89
+\bibsep=\skip90
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count363
+)
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\perpage.
+sty
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count364
+)
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperre
 f.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -1056,7 +1066,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 ons.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count363
+\c@section@level=\count365
 )
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stri
 ngenc.sty
@@ -1064,8 +1074,8 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen328
-\Hy@linkcounter=\count364
-\Hy@pagecounter=\count365
+\Hy@linkcounter=\count366
+\Hy@pagecounter=\count367
 
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.
 def
@@ -1075,13 +1085,14 @@ File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 c.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count366
+\Hy@SavedSpaceFactor=\count368
 
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.d
 ef
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4066.
 Package hyperref Info: Hyper figures OFF on input line 4195.
 Package hyperref Info: Link nesting OFF on input line 4200.
 Package hyperref Info: Hyper index ON on input line 4203.
@@ -1089,8 +1100,8 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count367
- (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\c@Hy@tempcnt=\count369
+(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1106,7 +1117,7 @@ intcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count368
+\Fld@menulength=\count370
 \Field@Width=\dimen330
 \Fld@charsize=\dimen331
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -1116,9 +1127,8 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring ON on input line 6096.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count369
-\c@Item=\count370
-\c@Hfootnote=\count371
+\Hy@abspage=\count371
+\c@Item=\count372
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -1126,10 +1136,10 @@ Package hyperref Info: Driver (autodetected): hxetex.
 def
 File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
 \pdfm@box=\box88
-\c@Hy@AnnotLevel=\count372
-\HyField@AnnotCount=\count373
-\Fld@listcount=\count374
-\c@bookmark@seq@number=\count375
+\c@Hy@AnnotLevel=\count373
+\HyField@AnnotCount=\count374
+\Fld@listcount=\count375
+\c@bookmark@seq@number=\count376
 
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\r
 erunfilecheck.sty
@@ -1142,12 +1152,13 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip89
-))
-(C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
-Package: xurl 2022/01/09 v 0.10 modify URL breaks
+\Hy@SectionHShift=\skip91
 )
-(main.aux)
+\c@fxans=\count377
+\c@pp@a@fxans=\count378
+) (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -1170,7 +1181,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1287,7 +1297,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceSerif4' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@lstlisting=\count376
+\c@lstlisting=\count379
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1300,83 +1310,48 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceSans3' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (sections/s00_intro.tex) (sections/s01_exchange_rate.tex
-[1
-
-]
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-File: images/kathmandu_board.jpg Graphic file (type bmp)
-<images/kathmandu_board.jpg>
-
+(sections/s00_intro.tex
 (C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr
 .cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-)) (sections/s02_forex_market.tex [2]
+)) (sections/s01_exchange_rate.tex [1
+
+]
+File: images/kathmandu_board.jpg Graphic file (type bmp)
+<images/kathmandu_board.jpg>
+) (sections/s02_forex_market.tex [2] (figures/fx_flow.tex)
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-(figures/fx_flow.tex) [3]
-
-LaTeX Warning: Marginpar on page 4 moved.
-
+[3]
 File: figures/remittances.pdf Graphic file (type pdf)
 <use figures/remittances.pdf>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 34.
+(caption)                particular \caption on input line 33.
 See the caption package documentation for explanation.
 
-[4]) (sections/s03_bop.tex
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-) (sections/s04_demand_supply.tex
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-[5]
-
-LaTeX Warning: Marginpar on page 6 moved.
-
-(figures/ds_basic.tex) [6] [7]
-Underfull \hbox (badness 1117) in paragraph at lines 53--54
+[4]) (sections/s03_bop.tex) (sections/s04_demand_supply.tex [5] (figures/ds_bas
+ic.tex) [6]
+Underfull \hbox (badness 1117) in paragraph at lines 46--47
 \TU/SourceSerif4(0)/m/n/10.95 export earnings increase their supply. The result
 ing exchange
  []
 
-) (sections/s05_appreciation.tex [8]
-
-LaTeX Warning: Marginpar on page 9 moved.
-
-) (sections/s06_systems.tex
+[7]) (sections/s05_appreciation.tex [8]) (sections/s06_systems.tex
 Underfull \hbox (badness 1028) in paragraph at lines 49--10
 \TU/SourceSerif4(0)/m/n/10.95 ment therefore depends on a person’s or business’
 s position in
  []
 
-[9]
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-[10]
+[9] [10]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 64.
+(caption)                particular \caption on input line 65.
 See the caption package documentation for explanation.
 
-[11] [12]) (sections/s07_reserves.tex
+[11]) (sections/s07_reserves.tex [12]
 Underfull \hbox (badness 1701) in paragraph at lines 13--14
 []\TU/SourceSerif4(0)/m/n/10.95 India’s foreign exchange reserves are made up o
 f four compo-
@@ -1387,40 +1362,38 @@ File: figures/reserves.pdf Graphic file (type pdf)
 [13] (figures/ds_intervention.tex)) (sections/s08_real_ppp.tex [14]
 File: figures/real_rate.pdf Graphic file (type pdf)
 <use figures/real_rate.pdf>
- [15]
+
 Underfull \hbox (badness 1221) in paragraph at lines 31--32
 \TU/SourceSerif4(0)/m/n/10.95 port costs and import taxes mean that identical g
 oods are not
  []
 
-[16]) (sections/s09_what_moves.tex
+[15]) (sections/s09_what_moves.tex
 File: figures/rupee_history.pdf Graphic file (type pdf)
 <use figures/rupee_history.pdf>
- [17] (figures/ds_shocks.tex) [18] [19])
-(sections/s10_why_matters.tex [20] (figures/imported_inflation.tex))
-(sections/s11_crises.tex [21]
+[16] (figures/ds_shocks.tex) [17] [18]) (sections/s10_why_matters.tex [19] (fig
+ures/imported_inflation.tex)) (sections/s11_crises.tex [20]
 File: figures/srilanka_index.pdf Graphic file (type pdf)
 <use figures/srilanka_index.pdf>
- [22] [23]) (sections/s12_conclusion.tex) [24]
-[25] (sections/e1_glossary.tex [26
+[21]) (sections/s12_conclusion.tex) [22] [23] (sections/e1_glossary.tex) (secti
+ons/e2_questions.tex [24
 
-] [27]) (sections/e2_questions.tex [28]
-[29]) (sections/e3_further_learning.tex) (sections/e4_references.tex [30]
-[31] [32]) [33] (main.aux)
+] [25]) (sections/e3_further_learning.tex) (sections/e4_references.tex [26] [27
+]) [28] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A2DE59DD2F3DC4F47A5C42FFC510D77B;6275.
+(rerunfilecheck)             Checksum: 0A627CA7A253F77DFEC23947F93C9716;6278.
  ) 
 Here is how much of TeX's memory you used:
- 34806 strings out of 402987
- 743404 string characters out of 5447076
- 1297768 words of memory out of 5000000
- 62945 multiletter control sequences out of 15000+600000
- 633477 words of font info for 108 fonts, out of 8000000 for 9000
+ 35356 strings out of 402987
+ 752287 string characters out of 5447076
+ 1303773 words of memory out of 5000000
+ 63487 multiletter control sequences out of 15000+600000
+ 633493 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,13n,112p,1246b,1341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,13n,112p,1251b,1341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (33 pages, 1112156 bytes).
+Output written on main.xdv (28 pages, 954588 bytes).
