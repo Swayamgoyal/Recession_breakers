@@ -138,3 +138,38 @@ Made from the comments in `eco_porject.pdf` (51 highlights). The pre-review book
 - **11 (M4):** Table 3 (three crises compared) removed.
 
 **Word version:** `eco_project.docx` is built from the LaTeX by `source/build_docx.py`. Boxes become shaded Word styles, answers become Word footnotes, and margin notes become small "Key Term" paragraphs. Edit it by hand if needed, but changes made only in Word won't flow back into the LaTeX.
+
+## Fourth pass: concept map and Member 4 trims (15 November 2026, evening)
+
+The project owner's own edits saved at 17:01 are kept as they are. Those edits trimmed Sections 2, 4, 5 and 6 and removed Table 1, Table 2, the Section 6 history case study and timeline, the "Reading the rupee's history" box, and the Glossary and Review questions from `main.tex`.
+
+- **Conclusion:** the "Key points: What this chapter has shown" box was replaced by a concept map (`figures/concept_map.tex`, Figure 12, "The chapter at a glance"). The exchange rate sits at the centre, with six branches (why it has a price, who buys and sells, what sets the price, what moves it, how it is managed, who gains and who loses), a crisis box below, and "Where next?". Each branch is tagged with its sections. The Conclusion now starts on a new page so the paragraph and the map sit together. Member 1's paragraph is unchanged.
+- **Section 9 (M4):**
+  - the opening, inflation and capital-flows paragraphs are tighter;
+  - the "Washington / Mumbai" line and the interest rate margin note are removed;
+  - both figure captions are shorter;
+  - the Figure 9 caption no longer points to the deleted box.
+- **Section 10 (M4):**
+  - the intro is now one sentence;
+  - the one-paragraph Selvi case study was folded into the exporter paragraph (₹90 → ₹95, ₹18 lakh → ₹19 lakh);
+  - the Figure 11 caption, the worked example and the RBI paragraph are trimmed.
+- **Section 11 (M4):** removed:
+  - Sri Lanka's "most of that could not easily be spent";
+  - Pakistan's "lowest in nine years" and 38% inflation;
+  - the repeat of Section 3's software-and-remittances point;
+  - one sentence from each side of the IMF box.
+
+  The Figure 12 caption is shorter.
+- **Word count after this pass:** main text 4,203 (Member 4: 1,082). The whole Word document is 7,012 words by Word's count; the concept map is an image, so its words are not counted.
+
+## Sections 6–8, owner's instructions (15 November 2026, night)
+
+- **Section 6:**
+  - the "When economists disagree: Fixed or floating?" box is now Table 1, a short pros-and-cons table for fixed, floating and managed float;
+  - the lead-in now reads "as Table 1 shows";
+  - "India's exchange rate system today" now holds exactly the owner's text: the managed float since March 1993, and RBI intervention.
+- **Section 7:**
+  - Figure 5's caption is now just "India's foreign exchange reserves." The note and source line under it were removed;
+  - Figure 6 (the RBI intervention diagram) was removed, along with the "(Figure 6)" pointer in the text.
+- **Section 8:** the worked example "How inflation changes the real exchange rate" and Figure 7 (the same product before and after inflation) were removed.
+- **Not regenerated** (left as they were): the reference list and the glossary. Citation numbers still match because they are looked up by key.

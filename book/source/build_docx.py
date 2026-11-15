@@ -40,19 +40,22 @@ TIKZ = {  # png name: (LaTeX to place on the page)
     "ds_intervention": r"\input{figures/ds_intervention.tex}",
     "ds_shocks": r"\resizebox{0.92\linewidth}{!}{\input{figures/ds_shocks.tex}}",
     "imported_inflation": r"\resizebox{\linewidth}{!}{\input{figures/imported_inflation.tex}}",
+    "concept_map": r"\resizebox{17cm}{!}{\input{figures/concept_map.tex}}",
 }
 
 
 def timeline_code():
     s06 = (SECTIONS / "s06_systems.tex").read_text(encoding="utf-8")
     m = re.search(r"\\begin\{tikzpicture\}.*?\\end\{tikzpicture\}", s06, flags=re.S)
-    return r"\resizebox{\linewidth}{!}{%" + "\n" + m.group(0) + "}"
+    return (r"\resizebox{\linewidth}{!}{%" + "\n" + m.group(0) + "}") if m else None
 
 
 def render_tikz():
     IMG.mkdir(parents=True, exist_ok=True)
     BUILD.mkdir(parents=True, exist_ok=True)
-    jobs = dict(TIKZ, timeline=timeline_code())
+    jobs = dict(TIKZ)
+    if timeline_code():  # the timeline lives inside Section 6 (if it is still there)
+        jobs["timeline"] = timeline_code()
     for name, body in jobs.items():
         tex = BUILD / f"fig_{name}.tex"
         tex.write_text("\\documentclass[11pt]{article}\n\\usepackage{fxstyle}\n\\pagestyle{empty}\n"
@@ -415,6 +418,7 @@ def float_env(env, body, conv, out):
                 r"\\figsource\{((?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*)\}",
                 r"\\includegraphics(\[[^\]]*\])?\{[^}]+\}", r"\\resizebox\{[^}]*\}\{!\}\{\\input\{[^}]+\}\}",
                 r"\\input\{[^}]+\}", r"\\begin\{minipage\}(\[[^\]]*\])?\{[^}]*\}", r"\\end\{minipage\}",
+                r"\\begin\{adjustwidth\}\{[^}]*\}\{-\\dimexpr[^}]*\}", r"\\end\{adjustwidth\}",
                 r"\\begin\{tabularx?\}.*?\\end\{tabularx?\}"):
         rest = re.sub(pat, " ", rest, flags=re.S)
     note = re.sub(r"\s+", " ", conv(rest)).strip()
