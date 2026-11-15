@@ -12,10 +12,10 @@
 % ---- left column: demand ----
 \node[head, fill=fxorange] (dh) at (0,0)
   {Who wants dollars?\\[-1pt]{\footnotesize\mdseries demand for foreign exchange}};
-\node[item, below=3mm of dh] (d1) {\textbf{Importers}\\[-1pt]{\footnotesize crude oil, gold, electronics, machines}};
-\node[item, below=2mm of d1] (d2) {\textbf{Students and travellers abroad}\\[-1pt]{\footnotesize \textcolor{fxorange}{e.g.\ Meera's college fees}}};
-\node[item, below=2mm of d2] (d3) {\textbf{Indians investing abroad}\\[-1pt]{\footnotesize shares, property, firms}};
-\node[item, below=2mm of d3] (d4) {\textbf{Repaying foreign loans}\\[-1pt]{\footnotesize firms and government}};
+\node[item, below=3mm of dh] (d1) {\textbf{Importers}};
+\node[item, below=2mm of d1] (d2) {\textbf{Students and travellers abroad}};
+\node[item, below=2mm of d2] (d3) {\textbf{Indians investing abroad}};
+\node[item, below=2mm of d3] (d4) {\textbf{Repaying foreign loans}};
 \begin{scope}[on background layer]
   \node[fill=fxorange!10, rounded corners=2mm, inner sep=3mm, fit=(dh)(d4)] (dbox) {};
 \end{scope}
@@ -23,10 +23,10 @@
 % ---- right column: supply ----
 \node[head, fill=fxteal] (sh) at (13.4,0)
   {Who brings dollars in?\\[-1pt]{\footnotesize\mdseries supply of foreign exchange}};
-\node[item, below=3mm of sh] (s1) {\textbf{Exporters}\\[-1pt]{\footnotesize \textcolor{fxteal}{e.g.\ Selvi's T-shirts}, IT services}};
-\node[item, below=2mm of s1] (s2) {\textbf{Remittances}\\[-1pt]{\footnotesize \textcolor{fxteal}{e.g.\ Ravi's money from Dubai}}};
-\node[item, below=2mm of s2] (s3) {\textbf{Foreign tourists in India}\\[-1pt]{\footnotesize hotels, travel, shopping}};
-\node[item, below=2mm of s3] (s4) {\textbf{Foreigners investing in India}\\[-1pt]{\footnotesize FDI and FPI}};
+\node[item, below=3mm of sh] (s1) {\textbf{Exporters}};
+\node[item, below=2mm of s1] (s2) {\textbf{Remittances}};
+\node[item, below=2mm of s2] (s3) {\textbf{Foreign tourists in India}};
+\node[item, below=2mm of s3] (s4) {\textbf{Foreigners investing in India}};
 \begin{scope}[on background layer]
   \node[fill=fxteal!10, rounded corners=2mm, inner sep=3mm, fit=(sh)(s4)] (sbox) {};
 \end{scope}

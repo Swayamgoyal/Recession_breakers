@@ -1,60 +1,50 @@
 % Concept map for the Conclusion: the whole chapter on one page.
-% Replaces the "Key points: What this chapter has shown" box (15 Nov 2026).
-% Hub = the exchange rate; six branches answer the chapter's questions,
-% each tagged with the sections that cover it; the crisis box sits below.
-\providecommand{\mapbox}[4][52mm]{% [width]{colour}{title}{body}
+% Short version (about 135 words), 15 Nov 2026. The fuller version is in
+% old_files/concept_map_full_2026-11-15.tex.
+% Hub = the exchange rate; six branches, each tagged with its sections;
+% the crisis box and "Back to Meera" sit below.
+\providecommand{\mapbox}[4][50mm]{% [width]{colour}{title}{body}
   \begin{tcolorbox}[enhanced, width=#1, arc=1.6mm, boxrule=0.9pt, colframe=#2, colback=white,
-    colbacktitle=#2, coltitle=white, fonttitle=\sffamily\bfseries\footnotesize,
-    fontupper=\sffamily\scriptsize\linespread{1.05}\selectfont, title={#3},
-    left=4pt, right=4pt, top=3pt, bottom=3pt, toptitle=1.6pt, bottomtitle=1.6pt, boxsep=1pt]
+    colbacktitle=#2, coltitle=white, fonttitle=\sffamily\bfseries\small,
+    fontupper=\sffamily\footnotesize\linespread{1.05}\selectfont, title={#3},
+    left=5pt, right=5pt, top=4pt, bottom=4pt, toptitle=2pt, bottomtitle=2pt, boxsep=1pt]
   \RaggedRight #4\end{tcolorbox}}
-\providecommand{\maptag}[1]{\hfill{\mdseries\scriptsize #1}}
+\providecommand{\maptag}[1]{\hfill{\mdseries\footnotesize #1}}
 \definecolor{mapgold}{HTML}{A9791A}
 \definecolor{mapred}{HTML}{A23B2E}
 \begin{tikzpicture}[
-  font=\sffamily\scriptsize, line cap=round,
+  font=\sffamily\footnotesize, line cap=round,
   box/.style={inner sep=0pt},
   link/.style={line width=1.3pt, #1},
 ]
 % ---- hub ----
-\node[fill=fxnavy, text=white, rounded corners=3mm, text width=34mm, align=center,
-      inner sep=7pt, minimum height=27mm] (hub) at (0,0)
-  {{\heavysans\large The exchange rate}\\[4pt]
-   {\footnotesize ₹ per US dollar}\\[5pt]
-   {\scriptsize the price of one currency\\ in terms of another}};
+\node[fill=fxnavy, text=white, rounded corners=3mm, text width=38mm, align=center,
+      inner sep=8pt, minimum height=22mm] (hub) at (0,0)
+  {{\heavysans\Large The\\ exchange rate}\\[5pt]{\small ₹ per US dollar}};
 
 % ---- left column ----
-\node[box] (L1) at (-5.75, 3.55) {\mapbox{fxteal}{Why it has a price\maptag{§1--2}}{%
-  Goods, services and savings cross borders, so one currency must be swapped for another.
-  India quotes rupees per dollar: a \textbf{bigger number} means a \textbf{weaker rupee}.}};
-\node[box] (L2) at (-5.75, 0) {\mapbox{fxnavy}{What sets the price\maptag{§4--5, 8}}{%
-  The demand for and supply of dollars meet at the \textbf{equilibrium rate}.\\[2pt]
-  More rupees per dollar = \textbf{depreciation}. Fewer = \textbf{appreciation}.\\[2pt]
-  The real rate and PPP adjust for prices.}};
-\node[box] (L3) at (-5.75, -3.55) {\mapbox{fxplum}{How it is managed\maptag{§6--7}}{%
-  Fixed, floating or \textbf{managed float}. India has used a managed float since 1993.\\[2pt]
-  The RBI sells dollars from its \textbf{reserves} to slow a fall, and buys them to slow a rise.}};
+\node[box] (L1) at (-5.6, 2.9) {\mapbox{fxteal}{Why it has a price\maptag{§1}}{%
+  Goods and savings cross borders. Bigger number, \textbf{weaker rupee}.}};
+\node[box] (L2) at (-5.6, 0) {\mapbox{fxnavy}{What sets it\maptag{§4--5, 8}}{%
+  Demand meets supply. Higher rate = \textbf{depreciation}.}};
+\node[box] (L3) at (-5.6, -2.9) {\mapbox{fxplum}{How it is managed\maptag{§6--7}}{%
+  \textbf{Managed float} since 1993. The RBI uses reserves to smooth swings.}};
 
 % ---- right column ----
-\node[box] (R1) at (5.75, 3.55) {\mapbox{fxorange}{Who buys and sells\maptag{§2--3}}{%
-  \textbf{Demand:} importers, students abroad, Indians investing abroad.\\[2pt]
-  \textbf{Supply:} exporters, remittances, foreign tourists and investors.\\[2pt]
-  Every flow is recorded in the \textbf{balance of payments}.}};
-\node[box] (R2) at (5.75, 0) {\mapbox{fxgreen}{What moves it\maptag{§9}}{%
-  \textbullet\ Inflation above US inflation: a \textbf{slow drift}\\
-  \textbullet\ US interest rates and capital flows: \textbf{sudden jumps}\\
-  \textbullet\ Oil prices and the current account deficit\\
-  \textbullet\ Expectations and speculation}};
-\node[box] (R3) at (5.75, -3.55) {\mapbox{mapgold}{Who gains, who loses\maptag{§5, 10}}{%
-  A weaker rupee \textbf{helps} exporters and families receiving remittances.\\[2pt]
-  It \textbf{hurts} importers, students abroad and dollar borrowers, and pushes up prices
-  (imported inflation).}};
+\node[box] (R1) at (5.6, 2.9) {\mapbox{fxorange}{Who buys and sells\maptag{§2--3}}{%
+  \textbf{Demand:} importers, students, investors abroad.
+  \textbf{Supply:} exporters, remittances, tourists, foreign investors.}};
+\node[box] (R2) at (5.6, 0) {\mapbox{fxgreen}{What moves it\maptag{§9}}{%
+  Inflation, interest rates, capital flows, oil, expectations.}};
+\node[box] (R3) at (5.6, -2.9) {\mapbox{mapgold}{Who gains, who loses\maptag{§5, 10}}{%
+  A weaker rupee \textbf{helps} exporters and remittance families, \textbf{hurts} importers,
+  students and borrowers.}};
 
-% ---- crisis box below ----
-\node[box] (C) at (0, -6.45) {\mapbox[115mm]{mapred}{When it breaks: currency crises\maptag{§11}}{%
-  \textbf{Low reserves + heavy foreign debt + a large current account deficit} $\rightarrow$
-  the currency collapses. India 1991 \textperiodcentered{} Sri Lanka 2022 \textperiodcentered{}
-  Pakistan 2022--23. Today India's reserves cover about 11 months of imports.}};
+% ---- crisis and Meera boxes below ----
+\node[box] (C) at (0, -5.5) {\mapbox[111mm]{mapred}{When it breaks\maptag{§11}}{%
+  \textbf{Low reserves + debt + deficit} $\rightarrow$ collapse. India 1991, Sri Lanka 2022, Pakistan 2023.}};
+\node[box, below=4mm of C] (M) {\mapbox[111mm]{fxmuted}{Back to Meera\maptag{Introduction}}{%
+  Dearer oil and departing investors weakened the rupee. Meera paid \textbf{₹2.5 lakh more}, and Ravi's family gained.}};
 
 % ---- links ----
 \begin{scope}[on background layer]
@@ -66,8 +56,4 @@
   \draw[link=mapgold]  (hub.330) to[out=340, in=180] (R3.west);
   \draw[link=mapred]   (hub.south) -- (C.north);
 \end{scope}
-
-% ---- where next ----
-\node[below=2.5mm of C, font=\sffamily\scriptsize, text=fxmuted, align=center]
-  {\textbf{Where next?} The balance of payments, monetary policy and international trade all build on these ideas.};
 \end{tikzpicture}

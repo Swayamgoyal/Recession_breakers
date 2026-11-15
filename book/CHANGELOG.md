@@ -173,3 +173,21 @@ The project owner's own edits saved at 17:01 are kept as they are. Those edits t
   - Figure 6 (the RBI intervention diagram) was removed, along with the "(Figure 6)" pointer in the text.
 - **Section 8:** the worked example "How inflation changes the real exchange rate" and Figure 7 (the same product before and after inflation) were removed.
 - **Not regenerated** (left as they were): the reference list and the glossary. Citation numbers still match because they are looked up by key.
+
+## Member 1's cuts from `Member1_Changes.md` (15 November 2026, night)
+
+- **Introduction, Sections 1–3:** body text, the margin note, the Figure 1 and 2 captions, the spread box and the Selvi box were replaced with Member 1's shorter text.
+- **Removed:**
+  - the "Questions this chapter answers" box;
+  - the "Ravi is one of millions" box with the remittances chart (old Figure 3);
+  - the "Dollars in or dollars out?" exercise and its answers;
+  - the FDI/FPI margin notes;
+  - the two Member 1 subheadings.
+- **Figure 2** (`figures/fx_flow.tex`): the grey second line in each of the eight boxes was removed (Member 1's optional change).
+- **Conclusion:** at the owner's request, the paragraph was removed and the Conclusion is now the concept map only. In the map, "Where next?" became a "Back to Meera" box that carries the paragraph's point, and the first branch is tagged §1.
+- **Reference list regenerated**, as Member 1's file asks. Gajbhiye et al. (2025) and World Bank (2017) dropped out. So did the other sources no longer cited after today's edits elsewhere (World Bank 2026b, Business Standard 2013 and 2025a, the Kathmandu Post, Business Recorder 2023b, RBI n.d.). All of them are still kept in `source/references.tex`.
+- **Word count:** main text 3,744 (Member 1: 797). Word counts 5,010 words before Further learning (was 5,746), plus 78 in answer footnotes.
+
+## Concept map shortened (15 November 2026, night)
+
+- The Conclusion map (`figures/concept_map.tex`) was cut from about 300 words to about 137, at the owner's request. It keeps the same hub, six branches, crisis box and "Back to Meera" box, but each now has one short line. The font is a step larger. The fuller version is in `old_files/concept_map_full_2026-11-15.tex`.

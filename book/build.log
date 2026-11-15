@@ -6,12 +6,6 @@ This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format
 entering extended mode
 xelatex: major issue: So far, you have not checked for MiKTeX updates.
 Latexmk: Getting log file 'main.log'
-Latexmk: Run number 2 of rule 'xelatex'
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex.fmt)
- restricted \write18 enabled.
-entering extended mode
-xelatex: major issue: So far, you have not checked for MiKTeX updates.
-Latexmk: Getting log file 'main.log'
 Latexmk: Run number 1 of rule 'xdvipdfmx'
 xdvipdfmx: major issue: So far, you have not checked for MiKTeX updates.
 

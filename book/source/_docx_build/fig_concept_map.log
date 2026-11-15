@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.9.3)  15 NOV 2026 17:24
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.9.3)  15 NOV 2026 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,7 +1328,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 ))
-Overfull \hbox (136.58122pt too wide) in paragraph at lines 5--6
+Overfull \hbox (136.57092pt too wide) in paragraph at lines 5--6
 [] 
  []
 
@@ -1346,12 +1346,12 @@ Package rerunfilecheck Info: File `fig_concept_map.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  34594 strings out of 402987
- 734831 string characters out of 5447076
- 1286580 words of memory out of 5000000
+ 734778 string characters out of 5447076
+ 1286715 words of memory out of 5000000
  62825 multiletter control sequences out of 15000+600000
- 630805 words of font info for 78 fonts, out of 8000000 for 9000
+ 630807 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,10n,112p,1106b,1456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,10n,112p,1106b,1486s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on C:\Users\swayam goyal\Desktop\intro to economics\recession_br
 eakers\book\source\_docx_build\fig_concept_map.pdf (1 page).

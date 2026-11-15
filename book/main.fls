@@ -351,7 +351,6 @@ INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cm
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-OUTPUT main.xdv
 INPUT .\images\kathmandu_board.jpg
 INPUT .\images\kathmandu_board.jpg
 INPUT .\images\kathmandu_board.jpg
@@ -360,13 +359,10 @@ INPUT .\sections\s02_forex_market.tex
 INPUT .\sections\s02_forex_market.tex
 INPUT .\sections\s02_forex_market.tex
 INPUT sections\s02_forex_market.tex
+OUTPUT main.xdv
 INPUT .\figures\fx_flow.tex
 INPUT .\figures\fx_flow.tex
 INPUT figures\fx_flow.tex
-INPUT .\figures\remittances.pdf
-INPUT .\figures\remittances.pdf
-INPUT .\figures\remittances.pdf
-INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT .\sections\s03_bop.tex
 INPUT .\sections\s03_bop.tex
 INPUT .\sections\s03_bop.tex
@@ -380,6 +376,7 @@ INPUT sections\s04_demand_supply.tex
 INPUT .\figures\ds_basic.tex
 INPUT .\figures\ds_basic.tex
 INPUT figures\ds_basic.tex
+INPUT C:\Users\swayam goyal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT .\sections\s05_appreciation.tex
 INPUT .\sections\s05_appreciation.tex
 INPUT .\sections\s05_appreciation.tex

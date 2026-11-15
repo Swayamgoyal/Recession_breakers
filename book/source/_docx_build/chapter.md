@@ -12,46 +12,28 @@ What is the rupee worth, and why does it keep changing?
 
 # Introduction: Meera’s dollar problem
 
-In October 2026, Meera, a Class 12 student in Chennai, got the email her family had been waiting for: a college in the United States had offered her a place. The first-year fees were US\$40,000, exactly what the college had charged a year earlier. Yet when her father asked his bank what the fees would cost in rupees, the answer was about ₹2.5 lakh more than it would have been a year before. The college had not raised its price. The price of the dollar had gone up.
+In October 2026, Meera, a Class 12 student in Chennai, won a place at a college in the United States. Its first-year fees were US\$40,000, the same as a year earlier. Yet in rupees they now cost about ₹2.5 lakh more. The college had not raised its price. The price of the dollar had gone up.
 
 ::: {custom-style="Key Term"}
-The fees are hypothetical. The exchange rates are real closing rates: ₹88.67 per US dollar on 13 October 2025^1^ and ₹95.05 on 15 October 2026.^2^ 40,000 × (95.05 − 88.67) = ₹2,55,200.
+The fees are hypothetical. The rates are real closing rates: ₹88.67 per US\$ on 13 October 2025^1^ and ₹95.05 on 15 October 2026.^2^ 40,000 × 6.38 = ₹2,55,200.
 :::
 
-Meera’s uncle Ravi, an electrician in Dubai, had the opposite surprise. Every month he sends part of his salary home to his parents in Thanjavur. This year the same amount arrived as more rupees than before.
-
-One family, one price, and two very different outcomes. This chapter explains what that price is, who sets it, and why it keeps moving.
-
-::: {custom-style="Box Plum Heading"}
-**Key points** Questions this chapter answers
-:::
-
-::: {custom-style="Box Plum"}
-• Why does one country’s money have a price in another country’s money?
-
-• Who buys and sells currencies, and why?
-
-• What decides that price, and why does it change so often?
-
-• How do countries, and the Reserve Bank of India, manage their exchange rates?
-
-• Who gains and who loses when the rupee rises or falls?
-:::
+Her uncle Ravi, an electrician in Dubai, saw the other side. The money he sends his parents in Thanjavur every month now arrives as more rupees. One price, two opposite outcomes. This chapter explains what that price is, who sets it and why it keeps moving.
 
 # 1 What is an exchange rate?
 
-Chai in Chennai is paid for in rupees, but coffee in New York needs US dollars and a meal in Dubai needs dirhams. So whenever goods, services or savings cross a border, one currency has to be swapped for another. The price of that swap is the **exchange rate**: the price of one currency in terms of another.^3^ In India it is set mainly by buyers and sellers in a market, and like the price of onions it can change from minute to minute.
+Rupees buy chai in Chennai, but coffee in New York needs dollars and a meal in Dubai needs dirhams. Whenever goods, services or savings cross a border, one currency must be swapped for another. The price of that swap is the **exchange rate**: the price of one currency in terms of another.^3^ In India it is set mainly by buyers and sellers in a market, so it changes minute by minute.
 
-Indian banks write the rate as a **direct quote**, “US\$1 = ₹95”, which is the number of rupees needed to buy one dollar.^4^ Flip it and you get the **indirect quote**, “₹1 = US\$0.0105”, which is the number of dollars one rupee buys. This chapter always uses the direct quote, rupees per dollar (₹/\$), so a bigger number means a weaker rupee. At ₹95 instead of ₹88, every rupee buys fewer dollars (see Section 5).
+Indian banks use the **direct quote**, the number of rupees needed to buy one unit of foreign currency, as in US\$1 = ₹95.^4^ The **indirect quote** flips this to ₹1 = US\$0.0105. This chapter always uses the direct quote (₹/\$), so a bigger number means a weaker rupee (see Section 5).
 
 ![](images/kathmandu_board.jpg){width=100%}
 
 ::: {custom-style="Caption Label"}
-**Figure 1.** A money exchange board at Kathmandu airport, January 2023.
+**Figure 1.** Exchange board at Kathmandu airport, January 2023.
 :::
 
 ::: {custom-style="Caption Note"}
-Each row is a *direct quote*: the price of one unit of a foreign currency in Nepalese rupees (NRs). A US dollar costs NRs 127.10 and a UAE dirham, the currency Ravi earns, about NRs 34. The Japanese yen is priced per 10 yen, because a single yen is worth very little.
+Each row is a direct quote in Nepalese rupees (NRs). A US dollar costs NRs 127.10 and a UAE dirham, the currency Ravi earns, about NRs 34.
 :::
 
 ::: {custom-style="Figure Source"}
@@ -63,20 +45,18 @@ Source: Photograph by Chainwit, [Wikimedia Commons](https://commons.wikimedia.or
 :::
 
 ::: {custom-style="Box Teal"}
-Banks and money changers quote two rates for each currency: a lower rate at which they buy it from you and a higher rate at which they sell it to you. Suppose a bank buys dollars at ₹93.50 and sells them at ₹96.50. Change ₹10,000 into dollars and you get US\$103.63. Change them straight back and you get only ₹9,689. The missing ₹311 is the bank’s earning, called the **spread**. Spreads are usually widest for cash at airport counters, which is why travellers lose the most there.
+A bank buys a currency from you at a lower rate and sells it to you at a higher one. Suppose it buys dollars at ₹93.50 and sells them at ₹96.50. Then ₹10,000 buys US\$103.63, which sells straight back for only ₹9,689. The missing ₹311 is the bank’s earning, the **spread**. Spreads are widest for cash at airport counters.
+
+(The rates are hypothetical.)
 :::
 
-## Why everyone watches the dollar
-
-Why does the news talk only about the rupee’s price in dollars? Because the dollar is the world’s working currency. In April 2025 it was on one side of 89 per cent of all currency trades.^6^ Crude oil, India’s biggest import, is priced in dollars, and only about 6 per cent of India’s exports are invoiced in rupees.^7^ Since July 2022 the Reserve Bank of India (RBI) has allowed Indian firms to settle payments for their imports and exports in rupees,^8^ but most still choose the dollar, because almost everyone, everywhere, will accept it.
-
-The dollar even reaches currencies that seem unrelated. The UAE dirham, which Ravi earns, has been fixed at 3.6725 dirhams per US dollar since 1997.^9^ Tying a currency to another at a set rate like this is called a **peg** (see Section 6). So when a dollar costs more rupees, so does a dirham, and every dirham Ravi sends home turns into more rupees.
+The rupee is watched mostly against the US dollar, the world’s working currency, which was on one side of 89 per cent of all currency trades in April 2025.^6^ Crude oil, India’s biggest import, is priced in dollars, and only about 6 per cent of India’s exports are invoiced in rupees,^7^ even though the Reserve Bank of India (RBI) has allowed trade to be settled in rupees since July 2022.^8^ The dollar even reaches the UAE dirham, which has been fixed, or **pegged**, at 3.6725 per US dollar since 1997^9^ (see Section 6). So when a dollar costs more rupees, so does every dirham Ravi sends home.
 
 # 2 The foreign exchange market: who needs dollars and who supplies them?
 
-Currencies are bought and sold in the **foreign exchange market**, or forex market. It has no building and no closing bell. It is a worldwide network of banks, dealers and large firms that trade with each other electronically, and as the day moves from Tokyo and Singapore to Mumbai, London and New York, the trading moves with it.^10^
+Currencies are traded in the **foreign exchange (forex) market**, a worldwide electronic network of banks, dealers and large firms with no building and no closing bell.^10^
 
-Figure 2 sorts the people in this market into two groups. Those who must make payments abroad, such as importers, need dollars. Together they make up the **demand for foreign exchange**. On the other side, exporters like Selvi, whose garment unit in Tiruppur sells T-shirts to American shops, and workers abroad like Ravi, who send home **remittances**, bring dollars in. They make up the **supply of foreign exchange**.^3^ Every deal is two purchases at once: when Meera’s father buys dollars, he is also selling rupees.^10^ The exchange rate is the price at which the two sides match (see Section 4).
+Anyone who must pay abroad needs dollars: importers, students like Meera, travellers, Indians investing abroad and borrowers repaying foreign loans. They make up the **demand for foreign exchange**. Anyone who earns from abroad brings dollars in: exporters like Selvi, whose garment unit in Tiruppur sells T-shirts to American shops, foreign tourists, foreign investors and workers like Ravi. Their **remittances** made India the world’s largest recipient in 2025, at US\$150.7 billion.^11^ Together they make up the **supply of foreign exchange**.^3^ Each deal is two purchases at once, because Meera’s father buys dollars by selling rupees.^10^ The exchange rate is the price at which the two sides match (Figure 2, see Section 4).
 
 ![](figures/docx/fx_flow.png){width=100%}
 
@@ -84,83 +64,29 @@ Figure 2 sorts the people in this market into two groups. Those who must make p
 **Figure 2.** Who wants dollars and who brings them in.
 :::
 
-::: {custom-style="Caption Note"}
-Each group on the left offers rupees to get dollars. Each group on the right offers dollars to get rupees.
-:::
-
 ::: {custom-style="Figure Source"}
 Source: Based on NCERT and Greenlaw et al.^3,10^
 :::
 
-## Most currency trading is not about trade
+Yet most forex trading is not about trade. About US\$9.6 trillion changed hands every day in April 2025,^6^ so the market turns over a year of world exports (US\$33 trillion in 2024^12^) in under four days. Most of it is investors moving savings. **Foreign direct investment (FDI)** buys a lasting stake of 10 per cent or more in a business, such as a car factory near Chennai, and stays for years. **Foreign portfolio investment (FPI)** buys shares and bonds and can leave in a day, so it can jolt the rupee^10^ (see Section 9).
 
-In April 2025, about US\$9.6 trillion worth of currencies changed hands every day.^6^ All the world’s exports of goods and services in 2024 were worth about 33 trillion dollars.^11^ So the forex market trades a whole year of world exports in less than four days. Most of this trading is done by banks and investors moving savings between countries.
-
-Investors come in two kinds. **Foreign direct investment (FDI)**, like a carmaker building a factory near Chennai, stays for years. **Foreign portfolio investment (FPI)** buys shares and bonds, and this investment can leave in a single day.^10^ That is why its comings and goings can jolt the rupee (see Section 9).
-
-::: {custom-style="Key Term"}
-**Foreign direct investment (FDI)**  Buying a lasting stake (10% or more) in a business abroad, or setting one up.
-:::
-
-::: {custom-style="Key Term"}
-**Foreign portfolio investment (FPI)**  Buying shares and bonds (holdings under 10%), which can be sold quickly.
-:::
-
-To buy dollars for the fees, Meera’s father will simply walk into his bank in Chennai. Under the Foreign Exchange Management Act, 1999, only banks and firms licensed by the RBI, such as **authorised dealers** and money changers, may deal in foreign currency. They trade with customers, with each other and with banks abroad, while the RBI makes the rules and, at times, buys or sells dollars itself (see Section 7).
+Under the Foreign Exchange Management Act, 1999, only dealers licensed by the RBI, such as banks (**authorised dealers**) and money changers, may deal in foreign currency. The RBI sets the rules and at times buys or sells dollars itself (see Section 7).
 
 ::: {custom-style="Box Navy Heading"}
 **Case study** Selvi’s three-month gamble
 :::
 
 ::: {custom-style="Box Navy"}
-In October, Selvi agrees to sell T-shirts worth US\$20,000 to a shop in New York, which will pay in January. At today’s rate of ₹95, that is ₹19 lakh. But if the rupee strengthens to ₹90 by January, she will receive only ₹18 lakh, and her profit could vanish. To avoid the gamble, Selvi can sign a **forward contract** with her bank today, fixing the rate at which the bank will buy her dollars in January. The rate for a deal settled today is the **spot rate**. A rate agreed today for a deal in the future is a **forward rate**. Importers use the same tool to protect themselves from a weaker rupee.
-:::
+In October, Selvi sells T-shirts worth US\$20,000 to a New York shop that will pay in January. At today’s **spot rate**, the rate for a deal settled now, of ₹95, that is ₹19 lakh. If the rupee strengthens to ₹90 by January, she gets only ₹18 lakh and her profit could vanish. So she signs a **forward contract** with her bank, which fixes today a **forward rate** at which the bank will buy her dollars in January. Importers use the same tool against a weaker rupee.
 
-::: {custom-style="Box Green Heading"}
-**How economists learn from facts** Ravi is one of millions
-:::
-
-::: {custom-style="Box Green"}
-![](figures/remittances.png){width=100%}
-
-::: {custom-style="Caption Label"}
-**Figure 3.** Remittances received by India, 2000–2025 (US\$ billion).
-:::
-
-::: {custom-style="Figure Source"}
-Source: World Bank.^12^
-:::
-
-In 2025, Indians working abroad sent home **US\$150.7 billion**, more than any other country received and more than twice as much as Mexico, the next-largest recipient.^12^ Where the money comes from is changing. In 2020-21 the US sent 23.4 per cent of it and the UAE 18.0 per cent. By 2023-24 the US share had risen to 27.7 per cent, while the UAE’s had barely moved, to 19.2 per cent. An RBI study^13^ links this to more skilled Indians working in advanced economies.
-:::
-
-::: {custom-style="Box Orange Heading"}
-**Exercise** Dollars in or dollars out?
-:::
-
-::: {custom-style="Box Orange"}
-For each transaction, decide whether it adds to India’s *demand* for dollars or to the *supply* of dollars.^[**Answers.** Supply: (b), (c), (d), (g). Demand: (a), (e), (f).]
-
-\(a) Meera’s father pays her first-year fees.
-
-\(b) Ravi sends 3,000 dirhams to his parents in Thanjavur.
-
-\(c) A shop in New York pays Selvi for 5,000 T-shirts.
-
-\(d) A Japanese carmaker builds a new factory in Tamil Nadu.
-
-\(e) An Indian oil company buys a shipload of crude oil.
-
-\(f) An American investor sells her Indian shares and takes the money home.
-
-\(g) A family from Germany spends a week on a Kerala houseboat.
+(The figures are hypothetical.)
 :::
 
 # 3 The rupee’s account book: the balance of payments
 
-Every dollar that enters or leaves India is written down in the **balance of payments (BoP)**, the record of all economic transactions between the residents of a country and the rest of the world over a period such as a year. The **current account** records trade in goods and services, along with income and transfers such as remittances. The **capital account** records the buying and selling of assets, such as FDI, FPI and foreign loans. When a country spends more foreign currency on its current account than it earns, it runs a **current account deficit (CAD)**. The gap must then be paid for by a net inflow on the capital account or by drawing down the country’s reserves.^3^
+Every dollar that enters or leaves India is recorded in the **balance of payments (BoP)**, the record of all economic transactions between a country’s residents and the rest of the world over a period such as a year.^3^ The **current account** records trade in goods and services, income and transfers such as remittances. The **capital account** records the buying and selling of assets, such as FDI, FPI and foreign loans. When a country spends more foreign currency on its current account than it earns, it runs a **current account deficit (CAD)**, which must be paid for by net capital inflows or by drawing down reserves.^3^
 
-India imports far more goods than it exports, mainly oil, gold and electronics. But India also sells services such as software abroad, and Indians working abroad send money home. The dollars from these two sources cover most of the gap. In 2025-26 these and other **invisibles** (services, income and transfers) brought in a net US\$312 billion, leaving a current account deficit of only US\$25.2 billion, about 0.6 per cent of GDP.^14^ The capital account could not fill even this gap, because foreign portfolio investors took out a net US\$16.4 billion. So the RBI drew about US\$23.6 billion from its reserves (see Section 7).
+India imports far more goods than it exports, mainly oil, gold and electronics. But **invisibles**, which are services such as software, income and transfers such as remittances, brought in a net US\$312 billion in 2025-26. That left a CAD of only US\$25.2 billion, about 0.6 per cent of GDP.^13^ Capital flows did not cover even this, because foreign portfolio investors took out a net US\$16.4 billion. So the RBI drew about US\$23.6 billion from its reserves (see Section 7).
 
 # 4 How the exchange rate is determined: demand and supply
 
@@ -170,12 +96,12 @@ People and businesses demand US dollars to make payments abroad, while dollars e
 
 The demand curve slopes downward. When a dollar costs fewer rupees, foreign goods, foreign education and travel abroad become cheaper for Indians, so they wish to buy more dollars. The supply curve slopes upward. When each dollar fetches more rupees, selling abroad becomes more rewarding for exporters and sending money home becomes more attractive for workers abroad, so more dollars are offered.
 
-The two curves meet at the **equilibrium exchange rate**, where quantities demanded and supplied are equal and the market is in balance. Figure 4(a) shows this intersection.
+The two curves meet at the **equilibrium exchange rate**, where quantities demanded and supplied are equal and the market is in balance. Figure 3(a) shows this intersection.
 
 ![](figures/docx/ds_basic.png){width=100%}
 
 ::: {custom-style="Caption Label"}
-**Figure 4.** How changes in demand and supply affect the exchange rate.
+**Figure 3.** How changes in demand and supply affect the exchange rate.
 :::
 
 ::: {custom-style="Caption Note"}
@@ -186,7 +112,7 @@ The two curves meet at the **equilibrium exchange rate**, where quantities deman
 
 When demand or supply changes, the curves shift and the market moves to a new equilibrium.
 
-**An increase in the demand for dollars.** Suppose more Indians begin travelling to the United States or purchasing foreign goods and services. At each exchange rate, buyers now wish to purchase more dollars than before, so the demand curve shifts to the right. In panel (b) of Figure 4, the equilibrium moves from ₹82 to ₹86 per US dollar. Buyers must now pay more rupees for each dollar, which means that the rupee has depreciated against the dollar.
+**An increase in the demand for dollars.** Suppose more Indians begin travelling to the United States or purchasing foreign goods and services. At each exchange rate, buyers now wish to purchase more dollars than before, so the demand curve shifts to the right. In panel (b) of Figure 3, the equilibrium moves from ₹82 to ₹86 per US dollar. Buyers must now pay more rupees for each dollar, which means that the rupee has depreciated against the dollar.
 
 **An increase in the supply of dollars.** Now suppose Indian exporters receive more dollar payments from customers abroad. At each exchange rate, sellers are willing to supply more dollars than before, so the supply curve shifts to the right. In panel (c), the exchange rate falls from ₹82 to ₹79. Each dollar can now be exchanged for fewer rupees, so the rupee has appreciated against the dollar.
 
@@ -266,12 +192,12 @@ India’s foreign exchange reserves are made up of four components. The largest 
 
 Why does a country hold these reserves? There are three main reasons. First, they act as a buffer against economic shocks: if exports collapse or a financial panic hits, reserves can cushion the blow. Second, they ensure the country can pay for its imports even during difficult times. A commonly used measure is **import cover**, which tells us how many months of imports a country could pay for using only its reserves. Third, large reserves signal financial stability to foreign investors, encouraging investment.
 
-Figure 5 shows how India’s foreign exchange reserves have grown since 1990.
+Figure 4 shows how India’s foreign exchange reserves have grown since 1990.
 
 ![](figures/reserves.png){width=100%}
 
 ::: {custom-style="Caption Label"}
-**Figure 5.** India’s foreign exchange reserves.
+**Figure 4.** India’s foreign exchange reserves.
 :::
 
 Now let us look at how the RBI uses these reserves to manage the rupee’s value. Suppose the rupee is falling too fast against the US dollar, perhaps because too many people are selling rupees to buy dollars. The RBI steps in by selling dollars from its reserves into the foreign exchange market. This **intervention** increases the supply of dollars, making the dollar relatively cheaper and the rupee relatively more valuable, slowing or reversing the rupee’s fall. The opposite happens when the rupee is rising too fast: the RBI buys dollars, increasing demand for the dollar and gently pushing the rupee’s value back down.
@@ -297,7 +223,7 @@ Despite its limitations, PPP is extremely useful for comparing living standards 
 ::: {custom-style="Box Teal"}
 Every year, *The Economist* magazine publishes the Big Mac index, which compares the price of a McDonald’s burger across countries to estimate whether currencies are overvalued or undervalued. Since beef is not widely eaten in India, McDonald’s India sells a Maharaja Mac instead, and *The Economist* uses its chicken version as India’s entry in the index.
 
-In January 2023, a Maharaja Mac cost ₹207 in India and a Big Mac cost \$5.36 in the US. This implies a PPP exchange rate of about ₹38.6 per US dollar, while the actual rate was around ₹81.7. This suggests the rupee was undervalued by about 53 per cent against the dollar, meaning money goes much further in India than the nominal exchange rate would suggest.^16^
+In January 2023, a Maharaja Mac cost ₹207 in India and a Big Mac cost \$5.36 in the US. This implies a PPP exchange rate of about ₹38.6 per US dollar, while the actual rate was around ₹81.7. This suggests the rupee was undervalued by about 53 per cent against the dollar, meaning money goes much further in India than the nominal exchange rate would suggest.^14^
 :::
 
 ::: {custom-style="Box Teal Heading"}
@@ -305,19 +231,19 @@ In January 2023, a Maharaja Mac cost ₹207 in India and a Big Mac cost \$5.36 i
 :::
 
 ::: {custom-style="Box Teal"}
-India’s nominal gross national income (GNI) per person, converted at market exchange rates, was about \$2,760 in 2025. Adjusted for PPP, it was about \$11,600, roughly 4.2 times higher.^17^ This gap exists because everyday goods and services in India are far cheaper than in high-income countries, so the same amount of money buys much more. International organisations like the World Bank and IMF prefer PPP figures when comparing living standards across countries for exactly this reason.
+India’s nominal gross national income (GNI) per person, converted at market exchange rates, was about \$2,760 in 2025. Adjusted for PPP, it was about \$11,600, roughly 4.2 times higher.^15^ This gap exists because everyday goods and services in India are far cheaper than in high-income countries, so the same amount of money buys much more. International organisations like the World Bank and IMF prefer PPP figures when comparing living standards across countries for exactly this reason.
 :::
 
 # 9 What moves the rupee?
 
 Behind every headline such as ‘Rupee falls 30 paise against the dollar’ sits the model from Section 4. Whenever the rupee moves, ask one question: did something change the demand for dollars, the supply of dollars, or both?
 
-Figure 6 traces the rupee since 1991. The line climbs from about ₹18 per US dollar to about ₹95, a level first crossed in 2026.^18^ Long, quiet stretches are broken by sudden jumps.
+Figure 5 traces the rupee since 1991. The line climbs from about ₹18 per US dollar to about ₹95, a level first crossed in 2026.^16^ Long, quiet stretches are broken by sudden jumps.
 
 ![](figures/rupee_history.png){width=100%}
 
 ::: {custom-style="Caption Label"}
-**Figure 6.** The rupee against the US dollar, January 1991 to September 2026.
+**Figure 5.** The rupee against the US dollar, January 1991 to September 2026.
 :::
 
 ::: {custom-style="Caption Note"}
@@ -325,21 +251,21 @@ A rise in the line means the rupee has weakened. The shaded bands mark six sharp
 :::
 
 ::: {custom-style="Figure Source"}
-Source: Federal Reserve data via FRED, monthly averages.^19^
+Source: Federal Reserve data via FRED, monthly averages.^17^
 :::
 
 The slow part of the climb is mainly about inflation. Prices in India have usually risen faster than in the United States, so Indian goods slowly become dearer for foreign buyers (see Section 8). Fewer dollars come in, more go out, and the rupee drifts down year after year.
 
 The sudden jumps are usually about money crossing borders. When foreigners buy Indian shares, bonds or businesses, dollars flow in, and when they sell, dollars flow out. These **capital flows** drive most short-run swings, because portfolio money can leave quickly (see Section 2).
 
-What makes this money move? Very often, interest rates. Investors compare what they can earn on an American government bond with what they can earn on an Indian one. The gap between the two is the **interest rate differential**. When the US Federal Reserve raises its interest rate, the gap narrows. Foreign investors sell Indian assets and take their dollars home, and the supply of dollars shifts to the left (Figure 7b).
+What makes this money move? Very often, interest rates. Investors compare what they can earn on an American government bond with what they can earn on an Indian one. The gap between the two is the **interest rate differential**. When the US Federal Reserve raises its interest rate, the gap narrows. Foreign investors sell Indian assets and take their dollars home, and the supply of dollars shifts to the left (Figure 6b).
 
-Crude oil is the other big mover. India imports about 88 per cent of the crude oil it uses.^20^ When the world price of oil rises, refiners need more dollars to buy the same number of barrels, and the demand for dollars shifts to the right (Figure 7a). A widening current account deficit (see Section 3) has a similar effect.
+Crude oil is the other big mover. India imports about 88 per cent of the crude oil it uses.^18^ When the world price of oil rises, refiners need more dollars to buy the same number of barrels, and the demand for dollars shifts to the right (Figure 6a). A widening current account deficit (see Section 3) has a similar effect.
 
 ![](figures/docx/ds_shocks.png){width=100%}
 
 ::: {custom-style="Caption Label"}
-**Figure 7.** Two shocks in the market for US dollars (hypothetical numbers).
+**Figure 6.** Two shocks in the market for US dollars (hypothetical numbers).
 :::
 
 ::: {custom-style="Caption Note"}
@@ -364,12 +290,12 @@ Start with those who earn dollars. When the rupee weakens, every dollar an expor
 **export competitiveness**  The ability of a country’s firms to sell goods and services abroad at prices that foreign buyers are willing to pay.
 :::
 
-Now consider those who spend dollars. India imports crude oil, gold, electronics, fertiliser and edible oil, almost all priced in dollars. A weaker rupee makes each of them dearer in rupees, even when the dollar price has not changed. Diesel runs the trucks that carry vegetables, grain and medicines, so costlier fuel spreads into the price of almost everything (Figure 8). A rise in prices that comes from dearer imports is called **imported inflation**.
+Now consider those who spend dollars. India imports crude oil, gold, electronics, fertiliser and edible oil, almost all priced in dollars. A weaker rupee makes each of them dearer in rupees, even when the dollar price has not changed. Diesel runs the trucks that carry vegetables, grain and medicines, so costlier fuel spreads into the price of almost everything (Figure 7). A rise in prices that comes from dearer imports is called **imported inflation**.
 
 ![](figures/docx/imported_inflation.png){width=100%}
 
 ::: {custom-style="Caption Label"}
-**Figure 8.** How a weaker rupee becomes imported inflation.
+**Figure 7.** How a weaker rupee becomes imported inflation.
 :::
 
 ::: {custom-style="Caption Note"}
@@ -398,14 +324,14 @@ This matters to the RBI. When it raises its policy interest rate (the repo rate)
 
 Foreign exchange reserves work like a family’s savings for a bad year (see Section 7). A country that runs out of dollars to pay for its imports and foreign loans can no longer protect its currency. The result is a **currency crisis**: a sudden, steep fall in the value of a currency, usually together with shortages and soaring prices. Two of India’s neighbours have lived through one recently.
 
-**Sri Lanka, 2022.**  Large tax cuts in 2019 reduced the government’s income. The COVID-19 pandemic then emptied the tourist hotels that earned much of the country’s foreign currency, while big foreign loan repayments kept falling due. The central bank spent its reserves holding the Sri Lankan rupee at about 200 per dollar, until by March 2022 only about US\$1.9 billion was left.^21^
+**Sri Lanka, 2022.**  Large tax cuts in 2019 reduced the government’s income. The COVID-19 pandemic then emptied the tourist hotels that earned much of the country’s foreign currency, while big foreign loan repayments kept falling due. The central bank spent its reserves holding the Sri Lankan rupee at about 200 per dollar, until by March 2022 only about US\$1.9 billion was left.^19^
 
-Once the currency was allowed to float in March 2022, it crashed to about 356 per dollar by May (Figure 9). Fuel, cooking gas and medicines ran short, and people queued for hours outside petrol pumps. In April 2022 the government stopped paying its foreign debts, Sri Lanka’s first **sovereign default**. Inflation reached 69.8 per cent in September 2022.^22^ In March 2023 the IMF approved a loan of about US\$3 billion,^23^ and prices slowly began to settle.
+Once the currency was allowed to float in March 2022, it crashed to about 356 per dollar by May (Figure 8). Fuel, cooking gas and medicines ran short, and people queued for hours outside petrol pumps. In April 2022 the government stopped paying its foreign debts, Sri Lanka’s first **sovereign default**. Inflation reached 69.8 per cent in September 2022.^20^ In March 2023 the IMF approved a loan of about US\$3 billion,^21^ and prices slowly began to settle.
 
 ![](figures/srilanka_index.png){width=100%}
 
 ::: {custom-style="Caption Label"}
-**Figure 9.** The Sri Lankan and Indian rupees against the US dollar, 2021 to 2024.
+**Figure 8.** The Sri Lankan and Indian rupees against the US dollar, 2021 to 2024.
 :::
 
 ::: {custom-style="Caption Note"}
@@ -413,16 +339,16 @@ Local currency per US dollar, with January 2022 = 100, so a rise means a weaker 
 :::
 
 ::: {custom-style="Figure Source"}
-Source: Federal Reserve data via FRED, monthly averages, indexed by the authors.^19,24^
+Source: Federal Reserve data via FRED, monthly averages, indexed by the authors.^17,22^
 :::
 
-**Pakistan, 2022–23.**  Pakistan came close to the same edge. High oil prices and the 2022 floods widened its current account deficit, and talks with the IMF stalled. By February 2023 its reserves had fallen to about US\$2.9 billion, barely enough for a few weeks of imports.^25^ The Pakistani rupee slid to a record low of about 307 per dollar in September 2023.^26^ A US\$3 billion **IMF programme**, approved in July 2023, helped Pakistan avoid default.^27^
+**Pakistan, 2022–23.**  Pakistan came close to the same edge. High oil prices and the 2022 floods widened its current account deficit, and talks with the IMF stalled. By February 2023 its reserves had fallen to about US\$2.9 billion, barely enough for a few weeks of imports.^23^ The Pakistani rupee slid to a record low of about 307 per dollar in September 2023.^24^ A US\$3 billion **IMF programme**, approved in July 2023, helped Pakistan avoid default.^25^
 
 ::: {custom-style="Key Term"}
 **IMF programme**  A loan from the International Monetary Fund to a country short of foreign currency, paid in instalments on condition that the country carries out agreed policy changes.
 :::
 
-**What about India?**  Both stories echo India’s own crisis of 1991 (see Section 6), when reserves covered only about two weeks of imports. India’s position today is much stronger. Its reserves stood at about US\$682 billion in May 2026, enough for about 11 months of imports.^28^ Under a managed float, the rupee adjusts a little every day, so pressure is released gradually instead of building up behind a fixed rate.
+**What about India?**  Both stories echo India’s own crisis of 1991 (see Section 6), when reserves covered only about two weeks of imports. India’s position today is much stronger. Its reserves stood at about US\$682 billion in May 2026, enough for about 11 months of imports.^26^ Under a managed float, the rupee adjusts a little every day, so pressure is released gradually instead of building up behind a fixed rate.
 
 The lesson from all three cases is that currencies rarely collapse because of a single bad event. Low reserves, heavy foreign-currency debt and a large current account deficit are like dry wood. A pandemic, an oil shock or a flood only supplies the spark.
 
@@ -442,12 +368,10 @@ What do you think? Should help in a crisis come with strings attached?
 
 # Conclusion
 
-Now look again at Meera’s fees. In 2026, dearer oil raised India’s demand for dollars, while foreign investors selling Indian assets cut the supply (see Section 9). The RBI sold dollars from its reserves to slow the rupee’s fall but did not stop it, and the bill for her fees went up by ₹2.5 lakh. The same move gave Ravi’s family more rupees for every dirham. An exchange rate is just a price, but so much of India’s trade, savings and borrowing passes through it that this one price reaches almost every household in the country.
-
 ![](figures/docx/concept_map.png){width=100%}
 
 ::: {custom-style="Caption Label"}
-**Figure 10.** The chapter at a glance.
+**Figure 9.** The chapter at a glance.
 :::
 
 # Further learning
@@ -466,21 +390,19 @@ Now look again at Meera’s fees. In 2026, dearer oil raised India’s demand fo
 8. Reserve Bank of India. (2022, July 11). *International trade settlement in Indian rupees (INR)* (A.P. (DIR Series) Circular No. 10). <https://rbi.org.in/Scripts/NotificationUser.aspx?Id=12358>
 9. Nagraj, A. (2024, November 22). Timeframe: When the UAE pegged its dirham to the US dollar in 1997. *The National*. <https://www.thenationalnews.com/lifestyle/2024/11/22/uae-dirham-dollar-peg/>
 10. Greenlaw, S. A., Shapiro, D., & MacDonald, D. (2022). *Principles of economics* (3rd ed.). OpenStax. <https://openstax.org/books/principles-economics-3e/pages/29-1-how-the-foreign-exchange-market-works>
-11. United Nations Conference on Trade and Development. (2025, March 14). *Global trade update (March 2025)*. <https://unctad.org/news/global-trade-hits-record-33-trillion-2024-driven-services-and-developed-economies>
-12. World Bank. (2026a). *Personal remittances, received (current US\$)* \[Data set\]. World Development Indicators. Retrieved October 16, 2026, from <https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT>
-13. Gajbhiye, D., Kundu, S., George, A., Vinherkar, O., Anees, Y., & Baby, J. (2025, March 19). Changing dynamics of India’s remittances: Insights from the sixth round of India’s Remittances Survey. *RBI Bulletin*. <https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=23260>
-14. Reserve Bank of India. (2026b, June 8). *Developments in India’s balance of payments during the fourth quarter (January–March) of 2025-26* \[Press release\]. <https://www.rbi.org.in>
-15. World Bank. (2026b). *Total reserves (includes gold, current US\$)* \[Data set\]. World Development Indicators. Retrieved November 10, 2026, from <https://data.worldbank.org/indicator/FI.RES.TOTL.CD>
-16. The Economist. (2026). *The Big Mac index* \[Data set\]. GitHub. Retrieved November 10, 2026, from <https://github.com/TheEconomist/big-mac-data>
-17. World Bank. (2026c). *GNI per capita, Atlas method and PPP (current US\$ and international \$)* \[Data set\]. World Development Indicators. Retrieved November 10, 2026, from <https://data.worldbank.org/indicator/NY.GNP.PCAP.CD>
-18. Shivalkar, A. (2026, April 30). *Rupee slips past 95 per dollar to record low on April 30, 2026*. Angel One. <https://www.angelone.in/news/economy/rupee-slips-past-95-per-dollar-to-record-low-on-april-30-2026>
-19. Board of Governors of the Federal Reserve System (US). (2026a). *Indian rupees to U.S. dollar spot exchange rate* \[EXINUS\] \[Data set\]. FRED, Federal Reserve Bank of St. Louis. Retrieved November 1, 2026, from <https://fred.stlouisfed.org/series/EXINUS>
-20. Petroleum Planning & Analysis Cell. (2025). *Snapshot of India’s oil & gas data*. Ministry of Petroleum and Natural Gas, Government of India. <https://ppac.gov.in>
-21. Daily Mirror. (2022, April 9). *Sri Lanka’s foreign reserves down by US \$372mn to US \$1.93bn by end-March*. <https://www.dailymirror.lk/business-news/Sri-Lankas-foreign-reserves-down-by-US-372mn-to-US-1-93bn-by-end-March/273-234865>
-22. Central Bank of Sri Lanka. (2022, September 30). *CCPI based headline inflation recorded at 69.8% on year-on-year basis in September 2022* \[Press release\]. <https://www.cbsl.gov.lk>
-23. International Monetary Fund. (2023a, March 20). *IMF Executive Board approves US\$3 billion under the new Extended Fund Facility (EFF) arrangement for Sri Lanka* (Press Release No. 23/79). <https://www.imf.org/en/News/Articles/2023/03/20/pr2379-imf-executive-board-approves-under-the-new-eff-arrangement-for-sri-lanka>
-24. Board of Governors of the Federal Reserve System (US). (2026b). *Sri Lankan rupees to U.S. dollar spot exchange rate* \[EXSLUS\] \[Data set\]. FRED, Federal Reserve Bank of St. Louis. Retrieved November 1, 2026, from <https://fred.stlouisfed.org/series/EXSLUS>
-25. Business Recorder. (2023a, February 9). *Highly critical: SBP-held foreign exchange reserves fall \$170mn, now stand at mere \$2.92bn*. <https://www.brecorder.com/news/40225346>
-26. Xinhua. (2023, September 6). Pakistani rupee picks up crash mode against USD, touching record low. *The Star*. <https://www.thestar.com.my/news/world/2023/09/06/pakistani-rupee-picks-up-crash-mode-against-usd-touching-record-low>
-27. International Monetary Fund. (2023b, July 12). *IMF Executive Board approves US\$3 billion Stand-By Arrangement for Pakistan* (Press Release No. 23/261). <https://www.imf.org/en/News/Articles/2023/07/12/pr23261-pakistan-imf-exec-board-approves-us3bil-sba>
-28. Reserve Bank of India. (2026c, June 5). *Governor’s statement* \[Monetary policy statement\]. <https://www.rbi.org.in>
+11. World Bank. (2026a). *Personal remittances, received (current US\$)* \[Data set\]. World Development Indicators. Retrieved October 16, 2026, from <https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT>
+12. United Nations Conference on Trade and Development. (2025, March 14). *Global trade update (March 2025)*. <https://unctad.org/news/global-trade-hits-record-33-trillion-2024-driven-services-and-developed-economies>
+13. Reserve Bank of India. (2026b, June 8). *Developments in India’s balance of payments during the fourth quarter (January–March) of 2025-26* \[Press release\]. <https://www.rbi.org.in>
+14. The Economist. (2026). *The Big Mac index* \[Data set\]. GitHub. Retrieved November 10, 2026, from <https://github.com/TheEconomist/big-mac-data>
+15. World Bank. (2026c). *GNI per capita, Atlas method and PPP (current US\$ and international \$)* \[Data set\]. World Development Indicators. Retrieved November 10, 2026, from <https://data.worldbank.org/indicator/NY.GNP.PCAP.CD>
+16. Shivalkar, A. (2026, April 30). *Rupee slips past 95 per dollar to record low on April 30, 2026*. Angel One. <https://www.angelone.in/news/economy/rupee-slips-past-95-per-dollar-to-record-low-on-april-30-2026>
+17. Board of Governors of the Federal Reserve System (US). (2026a). *Indian rupees to U.S. dollar spot exchange rate* \[EXINUS\] \[Data set\]. FRED, Federal Reserve Bank of St. Louis. Retrieved November 1, 2026, from <https://fred.stlouisfed.org/series/EXINUS>
+18. Petroleum Planning & Analysis Cell. (2025). *Snapshot of India’s oil & gas data*. Ministry of Petroleum and Natural Gas, Government of India. <https://ppac.gov.in>
+19. Daily Mirror. (2022, April 9). *Sri Lanka’s foreign reserves down by US \$372mn to US \$1.93bn by end-March*. <https://www.dailymirror.lk/business-news/Sri-Lankas-foreign-reserves-down-by-US-372mn-to-US-1-93bn-by-end-March/273-234865>
+20. Central Bank of Sri Lanka. (2022, September 30). *CCPI based headline inflation recorded at 69.8% on year-on-year basis in September 2022* \[Press release\]. <https://www.cbsl.gov.lk>
+21. International Monetary Fund. (2023a, March 20). *IMF Executive Board approves US\$3 billion under the new Extended Fund Facility (EFF) arrangement for Sri Lanka* (Press Release No. 23/79). <https://www.imf.org/en/News/Articles/2023/03/20/pr2379-imf-executive-board-approves-under-the-new-eff-arrangement-for-sri-lanka>
+22. Board of Governors of the Federal Reserve System (US). (2026b). *Sri Lankan rupees to U.S. dollar spot exchange rate* \[EXSLUS\] \[Data set\]. FRED, Federal Reserve Bank of St. Louis. Retrieved November 1, 2026, from <https://fred.stlouisfed.org/series/EXSLUS>
+23. Business Recorder. (2023a, February 9). *Highly critical: SBP-held foreign exchange reserves fall \$170mn, now stand at mere \$2.92bn*. <https://www.brecorder.com/news/40225346>
+24. Xinhua. (2023, September 6). Pakistani rupee picks up crash mode against USD, touching record low. *The Star*. <https://www.thestar.com.my/news/world/2023/09/06/pakistani-rupee-picks-up-crash-mode-against-usd-touching-record-low>
+25. International Monetary Fund. (2023b, July 12). *IMF Executive Board approves US\$3 billion Stand-By Arrangement for Pakistan* (Press Release No. 23/261). <https://www.imf.org/en/News/Articles/2023/07/12/pr23261-pakistan-imf-exec-board-approves-us3bil-sba>
+26. Reserve Bank of India. (2026c, June 5). *Governor’s statement* \[Monetary policy statement\]. <https://www.rbi.org.in>
