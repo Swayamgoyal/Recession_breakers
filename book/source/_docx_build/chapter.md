@@ -24,7 +24,7 @@ Her uncle Ravi, an electrician in Dubai, saw the other side. The money he sends 
 
 Rupees buy chai in Chennai, but coffee in New York needs dollars and a meal in Dubai needs dirhams. Whenever goods, services or savings cross a border, one currency must be swapped for another. The price of that swap is the **exchange rate**: the price of one currency in terms of another.^3^ In India it is set mainly by buyers and sellers in a market, so it changes minute by minute.
 
-Indian banks use the **direct quote**, the number of rupees needed to buy one unit of foreign currency, as in US\$1 = ₹95.^4^ The **indirect quote** flips this to ₹1 = US\$0.0105. This chapter always uses the direct quote (₹/\$), so a bigger number means a weaker rupee (see Section 5).
+Indian banks use the **direct quote**, the number of rupees needed to buy one unit of foreign currency, as in US\$1 = ₹95.^4^ The **indirect quote** flips this to ₹1 = US\$0.0105. This chapter always uses the direct quote (₹/\$), so a bigger number means a weaker rupee.
 
 ![](images/kathmandu_board.jpg){width=100%}
 
@@ -50,7 +50,7 @@ A bank buys a currency from you at a lower rate and sells it to you at a higher 
 (The rates are hypothetical.)
 :::
 
-The rupee is watched mostly against the US dollar, the world’s working currency, which was on one side of 89 per cent of all currency trades in April 2025.^6^ Crude oil, India’s biggest import, is priced in dollars, and only about 6 per cent of India’s exports are invoiced in rupees,^7^ even though the Reserve Bank of India (RBI) has allowed trade to be settled in rupees since July 2022.^8^ The dollar even reaches the UAE dirham, which has been fixed, or **pegged**, at 3.6725 per US dollar since 1997^9^ (see Section 6). So when a dollar costs more rupees, so does every dirham Ravi sends home.
+The rupee is watched mostly against the US dollar, the world’s working currency, which was on one side of 89 per cent of all currency trades in April 2025.^6^ Crude oil, India’s biggest import, is priced in dollars, and only about 6 per cent of India’s exports are invoiced in rupees,^7^ even though the Reserve Bank of India (RBI) has allowed trade to be settled in rupees since July 2022.^8^ The dollar even reaches the UAE dirham, which has been fixed, or **pegged**, at 3.6725 per US dollar since 1997^9^ (see Section 5). So when a dollar costs more rupees, so does every dirham Ravi sends home.
 
 # 2 The foreign exchange market: who needs dollars and who supplies them?
 
@@ -68,9 +68,9 @@ Anyone who must pay abroad needs dollars: importers, students like Meera, travel
 Source: Based on NCERT and Greenlaw et al.^3,10^
 :::
 
-Yet most forex trading is not about trade. About US\$9.6 trillion changed hands every day in April 2025,^6^ so the market turns over a year of world exports (US\$33 trillion in 2024^12^) in under four days. Most of it is investors moving savings. **Foreign direct investment (FDI)** buys a lasting stake of 10 per cent or more in a business, such as a car factory near Chennai, and stays for years. **Foreign portfolio investment (FPI)** buys shares and bonds and can leave in a day, so it can jolt the rupee^10^ (see Section 9).
+Yet most forex trading is not about trade. About US\$9.6 trillion changed hands every day in April 2025,^6^ so the market turns over a year of world exports (US\$33 trillion in 2024^12^) in under four days. Most of it is investors moving savings. **Foreign direct investment (FDI)** buys a lasting stake of 10 per cent or more in a business, such as a car factory near Chennai, and stays for years. **Foreign portfolio investment (FPI)** buys shares and bonds and can leave in a day, so it can jolt the rupee^10^ (see Section 8).
 
-Under the Foreign Exchange Management Act, 1999, only dealers licensed by the RBI, such as banks (**authorised dealers**) and money changers, may deal in foreign currency. The RBI sets the rules and at times buys or sells dollars itself (see Section 7).
+Under the Foreign Exchange Management Act, 1999, only dealers licensed by the RBI, such as banks (**authorised dealers**) and money changers, may deal in foreign currency. The RBI sets the rules and at times buys or sells dollars itself (see Section 6).
 
 ::: {custom-style="Box Navy Heading"}
 **Case study** Selvi’s three-month gamble
@@ -86,7 +86,7 @@ In October, Selvi sells T-shirts worth US\$20,000 to a New York shop that will p
 
 Every dollar that enters or leaves India is recorded in the **balance of payments (BoP)**, the record of all economic transactions between a country’s residents and the rest of the world over a period such as a year.^3^ The **current account** records trade in goods and services, income and transfers such as remittances. The **capital account** records the buying and selling of assets, such as FDI, FPI and foreign loans. When a country spends more foreign currency on its current account than it earns, it runs a **current account deficit (CAD)**, which must be paid for by net capital inflows or by drawing down reserves.^3^
 
-India imports far more goods than it exports, mainly oil, gold and electronics. But **invisibles**, which are services such as software, income and transfers such as remittances, brought in a net US\$312 billion in 2025-26. That left a CAD of only US\$25.2 billion, about 0.6 per cent of GDP.^13^ Capital flows did not cover even this, because foreign portfolio investors took out a net US\$16.4 billion. So the RBI drew about US\$23.6 billion from its reserves (see Section 7).
+India imports far more goods than it exports, mainly oil, gold and electronics. But **invisibles**, which are services such as software, income and transfers such as remittances, brought in a net US\$312 billion in 2025-26. That left a CAD of only US\$25.2 billion, about 0.6 per cent of GDP.^13^ Capital flows did not cover even this, because foreign portfolio investors took out a net US\$16.4 billion. So the RBI drew about US\$23.6 billion from its reserves (see Section 6).
 
 # 4 How the exchange rate is determined: demand and supply
 
@@ -116,7 +116,7 @@ When demand or supply changes, the curves shift and the market moves to a new eq
 
 **An increase in the supply of dollars.** Now suppose Indian exporters receive more dollar payments from customers abroad. At each exchange rate, sellers are willing to supply more dollars than before, so the supply curve shifts to the right. In panel (c), the exchange rate falls from ₹82 to ₹79. Each dollar can now be exchanged for fewer rupees, so the rupee has appreciated against the dollar.
 
-In reality, demand and supply often shift together—stronger import demand raises the demand for dollars while a surge in export earnings raises their supply. The resulting exchange rate depends on both shifts, which is why we must consider both curves to find the new equilibrium (see Section 9).
+In reality, demand and supply often shift together—stronger import demand raises the demand for dollars while a surge in export earnings raises their supply. The resulting exchange rate depends on both shifts, which is why we must consider both curves to find the new equilibrium (see Section 8).
 
 ::: {custom-style="Box Orange Heading"}
 **Exercise** Draw the shift
@@ -132,31 +132,7 @@ In each case two things happen at once. Draw the market for US dollars in India 
 \(c) Remittances from the Gulf rise sharply, while a fall in world oil prices cuts India’s oil import bill.
 :::
 
-# 5 Appreciation and depreciation: who wins, who loses?
-
-A change in the exchange rate does not affect everyone in the same way. The result depends on whether a person or business needs to buy foreign currency to make payments or receives foreign currency as income.
-
-## When the rupee depreciates
-
-Suppose the exchange rate rises from ₹82 to ₹86 per US dollar. The rupee has **depreciated** because each US dollar now costs more rupees. This changes the cost of international transactions.
-
-An Indian importer who pays a supplier in dollars must spend more rupees for the same dollar payment. The same applies to Meera, who is preparing to study in the United States: if her college fees are fixed in dollars, their rupee cost rises when the rupee depreciates.
-
-For an Indian exporter, however, depreciation may be advantageous. Selvi runs a garment business in Tiruppur and receives payments from foreign buyers in dollars. When those dollars are converted into rupees, each dollar brings in more rupees. Indian goods may also become cheaper for foreign buyers when their prices are expressed in dollars, improving exporters’ price competitiveness. The size of this advantage depends on how buyers respond to price changes.
-
-Meera’s uncle Ravi, who works in Dubai and sends money to India, illustrates another effect. If the remittance is sent in a foreign currency and its value against the rupee rises, the same amount of foreign currency converts into more rupees for the recipient.
-
-## When the rupee appreciates
-
-If the exchange rate falls from ₹86 to ₹82 per US dollar, the rupee **appreciates**. The effects are broadly reversed. Importers and students paying dollar-denominated expenses need fewer rupees to buy the same number of dollars. Meera’s fees, for example, become less expensive in rupee terms.
-
-Selvi may face the opposite effect: her dollar earnings convert into fewer rupees, and her garments may become more expensive for foreign buyers if their rupee prices remain unchanged. Ravi’s family may likewise receive fewer rupees for the same foreign-currency remittance.
-
-Depreciation and appreciation describe a currency whose price is set by the market. When a government or central bank fixes the rate itself, a deliberate cut in the currency’s official value is called a **devaluation**, and a deliberate increase is a **revaluation**. India devalued the rupee in 1966 and again in 1991 (see Section 6).
-
-Neither appreciation nor depreciation benefits everyone. A weaker rupee can help an exporter earning dollars while increasing the costs of an importer spending dollars. A stronger rupee can reduce the cost of foreign purchases while lowering the rupee value of foreign-currency earnings. The effect of an exchange-rate movement therefore depends on a person’s or business’s position in international transactions.
-
-# 6 Exchange rate systems: fixed, flexible and managed
+# 5 Exchange rate systems: fixed, flexible and managed
 
 We have learnt what exchange rates are, how they affect our lives, and what makes the rupee appreciate or depreciate. But does the market always set the rate, and what systems has India used in its history? To answer this we first need to understand the different types of exchange rate systems.
 
@@ -184,7 +160,7 @@ Each system has its supporters, and each comes with risks, as Table 1 shows.
 
 Since March 1993, India has operated under a market-determined exchange rate, known as a managed float. The dual exchange rate system was abolished, and the value of the rupee became primarily set by the forces of supply and demand. Under this system, the RBI does not fix the rupee’s value, but it does intervene from time to time by buying or selling foreign exchange to prevent excessive or abrupt fluctuations.
 
-# 7 The RBI and India’s foreign exchange reserves
+# 6 The RBI and India’s foreign exchange reserves
 
 We have seen how the RBI intervenes in the foreign exchange market to stabilise the rupee. But what exactly does it intervene with? The answer lies in India’s **foreign exchange reserves**, a stockpile of assets that the RBI holds and manages on behalf of the country.
 
@@ -202,9 +178,9 @@ Figure 4 shows how India’s foreign exchange reserves have grown since 1990.
 
 Now let us look at how the RBI uses these reserves to manage the rupee’s value. Suppose the rupee is falling too fast against the US dollar, perhaps because too many people are selling rupees to buy dollars. The RBI steps in by selling dollars from its reserves into the foreign exchange market. This **intervention** increases the supply of dollars, making the dollar relatively cheaper and the rupee relatively more valuable, slowing or reversing the rupee’s fall. The opposite happens when the rupee is rising too fast: the RBI buys dollars, increasing demand for the dollar and gently pushing the rupee’s value back down.
 
-However, this tool has clear limits. Foreign exchange reserves, however large, are finite. If strong and sustained market pressure is pushing the rupee in one direction, the RBI cannot fight it indefinitely. This is precisely what happened in 1991, and it is a reminder that while reserves give the RBI significant power to stabilise the currency in the short run, they cannot override fundamental economic forces over the long run (see Section 11).
+However, this tool has clear limits. Foreign exchange reserves, however large, are finite. If strong and sustained market pressure is pushing the rupee in one direction, the RBI cannot fight it indefinitely. This is precisely what happened in 1991, and it is a reminder that while reserves give the RBI significant power to stabilise the currency in the short run, they cannot override fundamental economic forces over the long run (see Section 10).
 
-# 8 Nominal and real exchange rates, and purchasing power parity
+# 7 Nominal and real exchange rates, and purchasing power parity
 
 So far, we have talked about the exchange rate as a single number: how many rupees it takes to buy one US dollar. This is called the **nominal exchange rate**, and it is what you see on a currency exchange board or a news ticker. However, this number alone does not tell the full story of a currency’s strength.
 
@@ -234,7 +210,7 @@ In January 2023, a Maharaja Mac cost ₹207 in India and a Big Mac cost \$5.36 i
 India’s nominal gross national income (GNI) per person, converted at market exchange rates, was about \$2,760 in 2025. Adjusted for PPP, it was about \$11,600, roughly 4.2 times higher.^15^ This gap exists because everyday goods and services in India are far cheaper than in high-income countries, so the same amount of money buys much more. International organisations like the World Bank and IMF prefer PPP figures when comparing living standards across countries for exactly this reason.
 :::
 
-# 9 What moves the rupee?
+# 8 What moves the rupee?
 
 Behind every headline such as ‘Rupee falls 30 paise against the dollar’ sits the model from Section 4. Whenever the rupee moves, ask one question: did something change the demand for dollars, the supply of dollars, or both?
 
@@ -254,7 +230,7 @@ A rise in the line means the rupee has weakened. The shaded bands mark six sharp
 Source: Federal Reserve data via FRED, monthly averages.^17^
 :::
 
-The slow part of the climb is mainly about inflation. Prices in India have usually risen faster than in the United States, so Indian goods slowly become dearer for foreign buyers (see Section 8). Fewer dollars come in, more go out, and the rupee drifts down year after year.
+The slow part of the climb is mainly about inflation. Prices in India have usually risen faster than in the United States, so Indian goods slowly become dearer for foreign buyers (see Section 7). Fewer dollars come in, more go out, and the rupee drifts down year after year.
 
 The sudden jumps are usually about money crossing borders. When foreigners buy Indian shares, bonds or businesses, dollars flow in, and when they sell, dollars flow out. These **capital flows** drive most short-run swings, because portfolio money can leave quickly (see Section 2).
 
@@ -280,9 +256,9 @@ Markets also look ahead. If traders expect the rupee to fall, importers rush to 
 
 Real episodes usually mix these forces. In the global financial crisis of 2008 and the COVID-19 panic of 2020, investors everywhere fled to the safety of the US dollar, and the rupee fell even though India caused neither crisis.
 
-# 10 Why exchange rates matter for India
+# 9 Why exchange rates matter for India
 
-Whether a change in the rupee helps or hurts you (see Section 5) depends on whether you earn dollars, spend them or owe them.
+Whether a change in the rupee helps or hurts you depends on whether you earn dollars, spend them or owe them.
 
 Start with those who earn dollars. When the rupee weakens, every dollar an exporter earns turns into more rupees. When the rupee moved from ₹90 to ₹95, the same \$20,000 order from Selvi’s American buyer brought in ₹19 lakh instead of ₹18 lakh. She can keep the extra ₹1 lakh, or cut her dollar price to win more orders. Either way, Indian goods become easier to sell, and we say that their **export competitiveness** has improved.
 
@@ -320,9 +296,9 @@ Then there are those who owe dollars. A company that borrowed in dollars, such a
 
 This matters to the RBI. When it raises its policy interest rate (the repo rate), foreign money tends to flow in and the rupee strengthens. Imports become cheaper and inflation cools, although exporters find life harder. This route from interest rates to spending and prices, working through the exchange rate, is called the **exchange rate channel** of monetary policy.^4^
 
-# 11 When currencies collapse: crises in South Asia
+# 10 When currencies collapse: crises in South Asia
 
-Foreign exchange reserves work like a family’s savings for a bad year (see Section 7). A country that runs out of dollars to pay for its imports and foreign loans can no longer protect its currency. The result is a **currency crisis**: a sudden, steep fall in the value of a currency, usually together with shortages and soaring prices. Two of India’s neighbours have lived through one recently.
+Foreign exchange reserves work like a family’s savings for a bad year (see Section 6). A country that runs out of dollars to pay for its imports and foreign loans can no longer protect its currency. The result is a **currency crisis**: a sudden, steep fall in the value of a currency, usually together with shortages and soaring prices. Two of India’s neighbours have lived through one recently.
 
 **Sri Lanka, 2022.**  Large tax cuts in 2019 reduced the government’s income. The COVID-19 pandemic then emptied the tourist hotels that earned much of the country’s foreign currency, while big foreign loan repayments kept falling due. The central bank spent its reserves holding the Sri Lankan rupee at about 200 per dollar, until by March 2022 only about US\$1.9 billion was left.^19^
 
@@ -348,7 +324,7 @@ Source: Federal Reserve data via FRED, monthly averages, indexed by the authors.
 **IMF programme**  A loan from the International Monetary Fund to a country short of foreign currency, paid in instalments on condition that the country carries out agreed policy changes.
 :::
 
-**What about India?**  Both stories echo India’s own crisis of 1991 (see Section 6), when reserves covered only about two weeks of imports. India’s position today is much stronger. Its reserves stood at about US\$682 billion in May 2026, enough for about 11 months of imports.^26^ Under a managed float, the rupee adjusts a little every day, so pressure is released gradually instead of building up behind a fixed rate.
+**What about India?**  Both stories echo India’s own crisis of 1991 (see Section 5), when reserves covered only about two weeks of imports. India’s position today is much stronger. Its reserves stood at about US\$682 billion in May 2026, enough for about 11 months of imports.^26^ Under a managed float, the rupee adjusts a little every day, so pressure is released gradually instead of building up behind a fixed rate.
 
 The lesson from all three cases is that currencies rarely collapse because of a single bad event. Low reserves, heavy foreign-currency debt and a large current account deficit are like dry wood. A pandemic, an oil shock or a flood only supplies the spark.
 

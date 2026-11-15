@@ -12,7 +12,8 @@ from pathlib import Path
 
 BOOK = Path(__file__).resolve().parent.parent
 SECTIONS = BOOK / "sections"
-ORDER = re.findall(r"\\input\{sections/(\w+)\}", (BOOK / "main.tex").read_text(encoding="utf-8"))
+ORDER = re.findall(r"\\input\{sections/(\w+)\}",  # skips commented-out sections
+                   re.sub(r"(?m)(?<!\\)%.*$", "", (BOOK / "main.tex").read_text(encoding="utf-8")))
 
 
 def entries():

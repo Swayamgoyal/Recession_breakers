@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1794745536.79903 "main.xdv" "main.pdf" "main" 1794745537.43884 0
-  "main.xdv" 1794745536.29453 600664 b228cc50de94d0c9d72fe4f5cf402363 "xelatex"
+["xdvipdfmx"] 1794746926.18086 "main.xdv" "main.pdf" "main" 1794746926.76499 0
+  "main.xdv" 1794746925.63015 569764 afa9f6994e1a2bb66f78ef8e96b85a4e "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1794745532.73835 "main.tex" "main.xdv" "main" 1794745537.4048 0
+["xelatex"] 1794746922.69385 "main.tex" "main.xdv" "main" 1794746926.70932 0
   "-" 1794740413.93211 11032 7c36811085cc585c2fefe51b1c107bb2 ""
   "C:/Users/swayam goyal/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1788457861.27161 27179568 2310806f78d5707c50ecc1d7e2803fdf ""
   "C:/Users/swayam goyal/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136752454 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -192,7 +192,7 @@
   "C:/Users/swayam goyal/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/swayam goyal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/swayam goyal/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "figures/concept_map.tex" 1794745530.92115 3263 07c72683e2d18bd49c4f564dd6139040 ""
+  "figures/concept_map.tex" 1794746917.42419 3315 a055e5fbb5ac4316296cf4fbfcb07032 ""
   "figures/ds_basic.tex" 1794257783.19221 2488 523e48810eeb40db87ff273b7fc75776 ""
   "figures/ds_shocks.tex" 1794257888.84481 2108 53f8fab0291a3874ff579890d754332d ""
   "figures/fx_flow.tex" 1794744937.1304 2825 4d1c2d04468667bcbb22a03126d18f33 ""
@@ -202,22 +202,21 @@
   "figures/srilanka_index.pdf" 1794257831.87046 19767 ff8b1e17a25f82b204078eee69ed1c34 ""
   "fxstyle.sty" 1794740080.20089 9291 7972993f0d2c5778e1c1c2ed925494b3 ""
   "images/kathmandu_board.jpg" 1794256863.00467 284226 03e1e8e015c9d654c402a58b9b8e5f24 ""
-  "main.aux" 1794745536.2695 8452 9b7af26cb1d86a4ce7684f7fe23faa92 "xelatex"
-  "main.out" 1794745536.29035 5051 d1457a8f1feadf89ea7578e6a2fb0c9e "xelatex"
-  "main.tex" 1794742270.72549 1497 40b0b7bc4370161e9c60129ae8ab277d ""
+  "main.aux" 1794746925.62095 7936 9fb7caa28af74d6d2d7858d0f03b10bc "xelatex"
+  "main.out" 1794746925.62597 4339 bc601e43185bae6a136def25f66f052f "xelatex"
+  "main.tex" 1794746681.86907 1541 3dd1020fe5d0dca2ea6530d435695abd ""
   "sections/e3_further_learning.tex" 1794739565.20686 1372 98db54ea93582b99cc4b809779bd99a2 ""
   "sections/e4_references.tex" 1794744937.27359 6626 fcfeab59a212184d911345f31bb2741d ""
   "sections/s00_intro.tex" 1794744891.63745 1164 74221318ea56871dbf1cc126585375fb ""
-  "sections/s01_exchange_rate.tex" 1794744857.00653 3235 76a0acc45ce3f0169584512d9dddbb1e ""
+  "sections/s01_exchange_rate.tex" 1794746917.524 3248 27fe6b0f26f9dbb9ad136e70074dcd5a ""
   "sections/s02_forex_market.tex" 1794744892.48517 3929 935f10b1c0f49972ae7d967b0d7bda81 ""
   "sections/s03_bop.tex" 1794744893.32205 2076 9ec8ad26344958905d573ea121da1029 ""
   "sections/s04_demand_supply.tex" 1794742270.72549 4551 8f0818a28cc7eab73edf93a59530cf30 ""
-  "sections/s05_appreciation.tex" 1794742270.72549 3773 2edfab43f39eb8e4d41c76f901ff9283 ""
   "sections/s06_systems.tex" 1794743642.43169 3889 33663a096a2385486af3fb4016d44edc ""
   "sections/s07_reserves.tex" 1794743642.54418 4033 cd54eb977f80bf796c95e06fbaa24bf2 ""
   "sections/s08_real_ppp.tex" 1794743642.6525 4905 3ef044bc493c214b378a0a08608937b7 ""
   "sections/s09_what_moves.tex" 1794743249.19003 4162 75618c3ca3c612b6f8ffd3ac0065a004 ""
-  "sections/s10_why_matters.tex" 1794743270.80432 3441 cf9c8a27dfe215465342c9a9d6be9e2a ""
+  "sections/s10_why_matters.tex" 1794746917.62071 3421 203da78f56b82ccd3f4e6d1fb7feadcb ""
   "sections/s11_crises.tex" 1794743291.05511 4721 e58a7591dc5a4db22f980ad669d3aa3f ""
   "sections/s12_conclusion.tex" 1794744900.36305 904 2b5946d6b7fe1253f3086f84f66336ca ""
   (generated)

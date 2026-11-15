@@ -191,3 +191,22 @@ The project owner's own edits saved at 17:01 are kept as they are. Those edits t
 ## Concept map shortened (15 November 2026, night)
 
 - The Conclusion map (`figures/concept_map.tex`) was cut from about 300 words to about 137, at the owner's request. It keeps the same hub, six branches, crisis box and "Back to Meera" box, but each now has one short line. The font is a step larger. The fuller version is in `old_files/concept_map_full_2026-11-15.tex`.
+
+## Section 5 merged (15 November 2026, night)
+
+- **Section 5 (M2):** at the owner's request, the "When the rupee depreciates" and "When the rupee appreciates" subsections were merged into one short section. It keeps:
+  - both definitions on the ₹82/₹86 example;
+  - who loses and who gains (importers and Meera, then Selvi and Ravi's family);
+  - one sentence saying an appreciation reverses each effect;
+  - the devaluation/revaluation definitions.
+
+  The repeated closing paragraph was removed. Main text went from 431 to 193 words. The old version is in `old_files/s05_appreciation_before_merge_2026-11-15.tex`.
+
+## Section 5 removed (15 November 2026, night)
+
+- **Section 5 (Appreciation and depreciation, M2)** was taken out of the book at the owner's request. Its `\input` in `main.tex` is commented out and the file is archived in `old_files/s05_appreciation_removed_2026-11-15.tex`. Sections 6–11 are now 5–10, and references in the text renumber automatically.
+- **Follow-on fixes, approved by the owner:**
+  - the "(see Section 5)" pointers were removed from Section 1 and Section 10 (now 9);
+  - the concept map's section tags were renumbered.
+- **Build scripts:** `build_docx.py` and `number_references.py` now skip commented-out sections in `main.tex`.
+- **Word count:** main text 3,307. Word counts 4,558 words before Further learning (15 pages).

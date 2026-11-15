@@ -529,7 +529,7 @@ def markdown():
     md = [div("Kicker", conv(title.group(1)).strip().upper()),
           div("Title", conv(title.group(2)).strip()),
           div("Subtitle", conv(title.group(3)).strip())]
-    for name in re.findall(r"\\input\{sections/(\w+)\}", main):
+    for name in re.findall(r"\\input\{sections/(\w+)\}", strip_comments(main)):
         md += blocks((SECTIONS / f"{name}.tex").read_text(encoding="utf-8"), conv)
     return "\n\n".join(md) + "\n"
 

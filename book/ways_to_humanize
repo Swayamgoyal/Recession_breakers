@@ -1,0 +1,55 @@
+A practical checklist for turning AI-written paragraphs and general text into writing that reads like a real person wrote it. Compiled from writing guides by Scribbr, QuillBot, Coursera, Surfer SEO, Fireflies, SSW and Wikipedia's "Signs of AI writing" field guide.
+Sentence rhythm and structure
+1.  Vary sentence length ("burstiness"). Mix short, punchy sentences with longer ones. AI tends to write every sentence at the same length and cadence.
+2.  Vary how sentences open. Don't start consecutive sentences the same way ("This…", "Additionally…", "It is…").
+3.  Allow the occasional fragment. Real writing uses them. Sparingly.
+4.  Start a sentence with "And" or "But" now and then. Perfectly "correct" grammar everywhere can feel robotic.
+5.  Break the uniform paragraph pattern. Not every paragraph needs topic sentence → three points → summary line. Let some paragraphs be one or two lines.
+6.  Use contractions (it's, don't, you'll) where the tone allows.
+Word choice
+7.  Cut stock AI phrases. Remove or replace things like "delve into", "in today's fast-paced world", "it is important to note", "tapestry", "landscape", "navigate the complexities".
+8.  Drop overused formal connectors. Swap "furthermore", "moreover", "additionally", "in conclusion" for plainer links (also, so, but, still) or none at all.
+9.  Tone down inflated importance. Remove grand claims like "stands as a testament", "plays a vital role", "underscores its significance" unless they're truly earned.
+10.  Prefer plain, specific words over fancy, vague ones. "Use" instead of "leverage", "help" instead of "facilitate".
+11.  Avoid the safe, most-predictable word every time. Slightly less expected word choices (raising "perplexity") read as more human.
+12.  Use everyday, conversational language and informal transitions where the context allows.
+Content and substance
+13.  Cut the fluff. Delete generic opening lines, restated conclusions and sentences that say nothing new.
+14.  Replace generic statements with specifics: names, numbers, dates, places, concrete examples.
+15.  Add your own opinion or stance. Ask: what do I actually think about this? AI text tends to sit on the fence.
+16.  Add personal experience and anecdotes. First-hand observations are something AI cannot produce on its own.
+17.  Tell a short story where it fits, to give the reader an emotional connection.
+18.  Add original data, quotes or real examples (your own results, an expert quote, a customer example).
+19.  Remove superficial analysis. Phrases like "highlighting the importance of…" tacked onto the end of a sentence add no real insight. Say the actual point or cut it.
+20.  Fact-check every claim. AI can state wrong facts confidently; checking and correcting them is part of making the text yours.
+Tone and voice
+21.  Write for a specific reader. Address "you" directly and pitch the tone to your actual audience.
+22.  Match your own voice. Rewrite so it sounds like the way you normally write or speak, not neutral "corporate" prose.
+23.  Add a bit of personality: humour, empathy, mild emotion, rhetorical questions where natural.
+24.  Cut excessive hedging and disclaimers ("it's worth noting that", "while it may vary", "generally speaking") unless the uncertainty is real.
+25.  Avoid being overly polite or hand-holding. Get to the point.
+Formatting and punctuation
+26.  Reduce em dashes. Use commas, colons, full stops or brackets instead.
+27.  Avoid the "not just X, but Y" / "it's not X, it's Y" pattern (negative parallelism) and constant groups of three.
+28.  Don't over-format. Remove unnecessary bold text, headings and bullet lists in what should be flowing prose; turn lists back into paragraphs where natural.
+29.  Remove leftover chatbot artefacts: "Certainly!", "I hope this helps", "As an AI…", stray Markdown symbols (**, ##).
+30.  Use natural capitalisation in headings (sentence case rather than Title Case Everywhere).
+Process tips
+31.  Give the AI better prompts up front: a persona, the target audience, a tone, and samples of your own writing to imitate.
+32.  Ask for variety in the prompt, e.g. "mix short and long sentences, avoid em dashes, don't use 'furthermore' or 'delve'."
+33.  Use a custom outline so the structure comes from you, not the model's default template.
+34.  Read it out loud. Anything you wouldn't actually say is a candidate for rewriting.
+35.  Rewrite, don't just tweak. Fully rephrase passages that still feel clunky.
+36.  Do a final read for flow after all edits, so the piece sounds like one consistent person wrote it.
+A note on honesty
+Humanizing is best treated as editing for quality and voice, not disguise. Wikipedia's guide points out that the deeper problems with AI text are things like vague content, unverified claims and lack of real insight, so fixing those matters more than just removing surface tells. If you're using this for coursework or publishing, follow your institution's or platform's AI-disclosure rules.
+Sources
+• Scribbr: How to Humanize AI Text — 7 Practical Tips
+• QuillBot: How to Humanize AI Text — 7 Tips
+• Coursera: How to Humanize AI Content
+• Surfer SEO: How to Make ChatGPT Sound Human
+• Fireflies: How to Humanize AI Text
+• SSW Rules: Humanise AI-Generated Content
+• Wikipedia: Signs of AI writing
+• The Decoder: How to spot AI writing, according to Wikipedia editors
+• DEV Community: Making ChatGPT text sound more human
