@@ -30,24 +30,25 @@
 \RequirePackage{microtype}
 \linespread{1.12}
 
-% ---------- colours (Member 2 can change these in one place) ----------
+% ---------- colours (2-3 colour scheme: dark blue, light blue, red) ----------
 \RequirePackage[table]{xcolor}
-\definecolor{fxnavy}{HTML}{1F3A5F}
-\definecolor{fxorange}{HTML}{C8641E}
-\definecolor{fxteal}{HTML}{2A7072}
-\definecolor{fxgreen}{HTML}{3B6E3B}
-\definecolor{fxplum}{HTML}{6A3D6E}
-\definecolor{fxink}{HTML}{222222}
-\definecolor{fxmuted}{HTML}{5F5F5F}
-\definecolor{fxrule}{HTML}{C9CED6}
-\colorlet{fxnavybg}{fxnavy!6}
-\colorlet{fxorangebg}{fxorange!7}
-\colorlet{fxtealbg}{fxteal!7}
-\colorlet{fxgreenbg}{fxgreen!7}
-\colorlet{fxplumbg}{fxplum!6}
+\definecolor{fxnavy}{HTML}{14325A}          % dark blue — headings, structure, box borders
+\definecolor{fxorange}{HTML}{B82025}        % red — accent: title rule, bullets, exercises
+\definecolor{fxteal}{HTML}{3B7DC0}          % medium blue — URL links
+\definecolor{fxgreen}{HTML}{14325A}         % = dark blue (unified box look)
+\definecolor{fxplum}{HTML}{14325A}          % = dark blue (unified box look)
+\definecolor{fxink}{HTML}{1A1A1A}           % near-black body text
+\definecolor{fxmuted}{HTML}{555555}         % grey — captions, side notes
+\definecolor{fxrule}{HTML}{C2CFDF}          % light blue-grey header rule
+\colorlet{fxnavybg}{fxnavy!5}              % light blue tint — all box backgrounds
+\colorlet{fxorangebg}{fxorange!5}          % faint red tint — exercise boxes
+\colorlet{fxtealbg}{fxnavy!5}             % = light blue tint
+\colorlet{fxgreenbg}{fxnavy!5}            % = light blue tint
+\colorlet{fxplumbg}{fxnavy!5}             % = light blue tint
 
 % ---------- general packages ----------
 \RequirePackage{graphicx}
+\RequirePackage{float}
 \RequirePackage{tikz}
 \usetikzlibrary{positioning,arrows.meta,calc,shapes.geometric,fit,backgrounds}
 \RequirePackage{booktabs,tabularx,array}
@@ -134,19 +135,19 @@
   coltitle=white, fonttitle=\sffamily\bfseries,
   attach boxed title to top left={xshift=8pt, yshift=-3mm},
   boxed title style={arc=1mm, boxrule=0pt, top=1.5pt, bottom=1.5pt, left=5pt, right=5pt}}}
-\newtcolorbox{didyouknow}[1]{fxbase, colback=fxtealbg, borderline west={3pt}{0pt}{fxteal},
+\newtcolorbox{didyouknow}[1]{fxbase, colback=fxtealbg,
   boxed title style={colback=fxteal}, title={Did you know?\enspace\textmd{#1}}, top=12pt}
-\newtcolorbox{workedexample}[1]{fxbase, colback=fxnavybg, borderline west={3pt}{0pt}{fxnavy},
+\newtcolorbox{workedexample}[1]{fxbase, colback=fxnavybg,
   boxed title style={colback=fxnavy}, title={Worked example\enspace\textmd{#1}}, top=12pt}
-\newtcolorbox{exercise}[1]{fxbase, colback=fxorangebg, borderline west={3pt}{0pt}{fxorange},
+\newtcolorbox{exercise}[1]{fxbase, colback=fxorangebg,
   boxed title style={colback=fxorange}, title={Exercise\enspace\textmd{#1}}, top=12pt}
-\newtcolorbox{economistsfacts}[1]{fxbase, colback=fxgreenbg, borderline west={3pt}{0pt}{fxgreen},
+\newtcolorbox{economistsfacts}[1]{fxbase, colback=fxgreenbg,
   boxed title style={colback=fxgreen}, title={How economists learn from facts\enspace\textmd{#1}}, top=12pt}
-\newtcolorbox{keypoints}[2][]{fxbase, colback=fxplumbg, borderline west={3pt}{0pt}{fxplum},
+\newtcolorbox{keypoints}[2][]{fxbase, colback=fxplumbg,
   boxed title style={colback=fxplum}, title={Key points\enspace\textmd{#2}}, top=12pt, #1}
-\newtcolorbox{casestudy}[1]{fxbase, colback=fxnavybg, borderline west={3pt}{0pt}{fxnavy},
+\newtcolorbox{casestudy}[1]{fxbase, colback=fxnavybg,
   boxed title style={colback=fxnavy}, title={Case study\enspace\textmd{#1}}, top=12pt}
-\newtcolorbox{economistsdisagree}[1]{fxbase, colback=fxorangebg, borderline west={3pt}{0pt}{fxorange},
+\newtcolorbox{economistsdisagree}[1]{fxbase, colback=fxorangebg,
   boxed title style={colback=fxorange}, title={When economists disagree\enspace\textmd{#1}}, top=12pt}
 % Answers go to the foot of the page, not under the question.
 % \answers{...} puts a mark (*, †, ‡, restarting on each page) where it is
